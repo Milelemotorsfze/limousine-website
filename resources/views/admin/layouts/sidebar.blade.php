@@ -25,7 +25,7 @@
                      with font-awesome or any other icon font library -->
 
                 <li class="nav-item">
-                    <a href="{{ route('dashboard') }}" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon far fa-image"></i>
                         <p>
                             Dashboard
@@ -33,7 +33,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('enquires.index')}}" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
                            Enquires
@@ -41,18 +41,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('contacts.index')}}" class="nav-link">
+                    <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-phone"></i>
                         <p>
                             Contacts
-                        </p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{route('subscriptions.index')}}" class="nav-link">
-                        <i class="nav-icon fas fa-play"></i>
-                        <p>
-                           Subscriptions
                         </p>
                     </a>
                 </li>
