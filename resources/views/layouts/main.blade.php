@@ -39,6 +39,7 @@
          :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
          .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
       </style>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
       <link rel='stylesheet' id='contact-form-7-css' href="{{asset ('wp-content/plugins/contact-form-7/includes/css/stylesf658.css?ver=5.8.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='style-css' href="{{asset ('wp-content/themes/limoking/style9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='Montserrat-google-font-css' href='http://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&amp;subset=latin&amp;ver=6.3.1' type='text/css' media='all' />
@@ -81,22 +82,23 @@
 	  </style>
    </head>
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
-      <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >  
+      <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >
 	  	@include('layouts.header')
 			<div class="content-wrapper">
 				<div class="limoking-content">
-					<div class="with-sidebar-wrapper">  
-						@yield('content')  
+					<div class="with-sidebar-wrapper">
+						@yield('content')
 					</div>
 				</div>
 				<div class="clear" ></div>
 			</div>
-		@include('layouts.footer')             
+		@include('layouts.footer')
       </div>
       <script type="text/javascript"></script><script type='text/javascript' src="{{asset ('wp-content/plugins/contact-form-7/includes/swv/js/indexf658.js?ver=5.8.1')}}" id='swv-js'></script>
       <script type='text/javascript' id='contact-form-7-js-extra'>
          var wpcf7 = {"api":{"root":"http:\/\/localhost\/rentacar\/wp-json\/","namespace":"contact-form-7\/v1"}};
       </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
       <script type='text/javascript' src="{{asset ('wp-content/plugins/contact-form-7/includes/js/indexf658.js?ver=5.8.1')}}" id='contact-form-7-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/superfish/js/superfish5152.js?ver=1.0')}}" id='superfish-js'></script>
       <script type='text/javascript' src="{{asset ('wp-includes/js/hoverIntent.min3e5a.js?ver=1.10.2')}}" id='hoverIntent-js'></script>

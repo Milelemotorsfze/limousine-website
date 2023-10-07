@@ -43,4 +43,6 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/home', 'home')->name('home');
     Route::get('/about-us', 'aboutUs')->name('aboutUs');
     Route::get('/fleets', 'fleet')->name('fleets');
+    Route::get('/contact-us', 'contactUs')->name('contact-us');
+
 });

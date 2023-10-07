@@ -14,7 +14,7 @@
                   <li id="menu-item-6241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241"><a href="{{route('home')}}" aria-current="page">Homepage</a></li>
                   <li id="menu-item-6242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242"><a href="{{route('aboutUs')}}">About Us</a></li>
                   <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('fleets')}}">Fleet</a></li>
-                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="contact-page/index.html">Contact Page</a></li>
+                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                   <li id="menu-item-6244" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6244"><a href="faq/index.html">FAQ</a></li>
                   <li id="menu-item-6245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6245"><a href="price-table/index.html">Price Table</a></li>
                   <li id="menu-item-6247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6247">
@@ -52,7 +52,7 @@
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241 limoking-normal-menu"><a href="{{route('home')}}">Homepage</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242menu-item menu-item-type-post_type menu-item-object-page menu-item-6242 limoking-normal-menu"><a href="{{route('aboutUs')}}">About Us</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('fleets')}}">Fleet</a></li>
-                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="contact-page/index.html">Contact Page</a></li>
+                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6244menu-item menu-item-type-post_type menu-item-object-page menu-item-6244 limoking-normal-menu"><a href="faq/index.html">FAQ</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6245menu-item menu-item-type-post_type menu-item-object-page menu-item-6245 limoking-normal-menu"><a href="price-table/index.html">Price Table</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6247menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6247 limoking-normal-menu">

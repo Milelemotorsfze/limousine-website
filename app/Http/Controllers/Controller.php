@@ -21,4 +21,7 @@ class Controller extends BaseController
     {
         return view('pages.fleet');
     }
+    public function contactUs() {
+        return view('pages.contactUs');
+    }
 }
