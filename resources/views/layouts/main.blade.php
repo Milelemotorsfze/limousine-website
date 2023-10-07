@@ -68,19 +68,30 @@
       <script>var ms_grabbing_curosr="{{asset ('')}}"wp-content/plugins/masterslider/public/assets/css/common/grabbing.html',ms_grab_curosr="{{asset ('')}}"wp-content/plugins/masterslider/public/assets/css/common/grab.html';</script>
       <meta name="generator" content="MasterSlider 3.6.5 - Responsive Touch Image Slider" />
       <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+	  <style>
+		.background-color
+		{
+			background-color: #c69955 !important;
+		}
+		.fleet-icon
+		{
+			height:40px!important;
+			width:40px!important;
+		}
+	  </style>
    </head>
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
-      <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >
-         @include('layouts.header')
-         <div class="content-wrapper">
-            <div class="limoking-content">
-               <div class="with-sidebar-wrapper">
-                  @yield('content')
-               </div>
-            </div>
-            <div class="clear" ></div>
-         </div>
-         @include('layouts.footer')
+      <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >  
+	  	@include('layouts.header')
+			<div class="content-wrapper">
+				<div class="limoking-content">
+					<div class="with-sidebar-wrapper">  
+						@yield('content')  
+					</div>
+				</div>
+				<div class="clear" ></div>
+			</div>
+		@include('layouts.footer')             
       </div>
       <script type="text/javascript"></script><script type='text/javascript' src="{{asset ('wp-content/plugins/contact-form-7/includes/swv/js/indexf658.js?ver=5.8.1')}}" id='swv-js'></script>
       <script type='text/javascript' id='contact-form-7-js-extra'>
