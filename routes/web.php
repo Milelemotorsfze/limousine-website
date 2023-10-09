@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
@@ -27,6 +28,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::resource('contacts', ContactController::class)->only('index');
 });
 
 require __DIR__.'/auth.php';
@@ -44,6 +46,8 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/about-us', 'aboutUs')->name('aboutUs');
     Route::get('/fleets', 'fleets')->name('fleets');
     Route::get('/our-service', 'ourService')->name('our-service');
+    Route::get('/contact-us', 'contactUs')->name('contact-us');
     Route::get('/be-our-driver-or-investor', 'beOurDriverOrInvestor')->name('be-our-driver-or-investor');
     Route::get('/be-our-corporate-partner', 'beOurCorporatePartner')->name('be-our-corporate-partner');
 });
+Route::resource('contacts', ContactController::class)->only('store');

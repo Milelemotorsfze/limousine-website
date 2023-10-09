@@ -33,4 +33,7 @@ class Controller extends BaseController
     {
         return view('pages.beOurCorporatePartner');
     }
+    public function contactUs() {
+        return view('pages.contactUs');
+    }
 }

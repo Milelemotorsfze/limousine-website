@@ -1,8 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <div class="brand-link">
-        <img src="{{asset('images/car_rental_logo.png')}}" alt="AdminLTE Logo" class="brand-image " style="opacity: .8">
-        <span class="brand-text font-weight-light">Car Rental</span>
+        <img src="{{asset('images/limousine_logo_white_2.png')}}" alt="AdminLTE Logo" class="brand-image " >
+        <span class="brand-text font-weight-light">Limousine</span>
     </div>
 
     <!-- Sidebar -->
@@ -13,7 +13,7 @@
                 <img src="{{{ asset('images/user1-128x128.jpg') }}}" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="#" class="d-block">Admin</a>
+                <a href="#" class="d-block">{{ \Illuminate\Support\Facades\Auth::user()->name }}</a>
             </div>
         </div>
 
@@ -36,12 +36,12 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                           Enquires
+                          Be a Partner
                         </p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{ route('contacts.index') }}" class="nav-link">
                         <i class="nav-icon fas fa-phone"></i>
                         <p>
                             Contacts
