@@ -1,7 +1,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <div class="brand-link">
-        <img src="{{asset('images/limousine_logo_white_2.png')}}" alt="AdminLTE Logo" class="brand-image " >
+        <img src="{{asset('uploads/Logo/Milele Limousine - Web 1.png')}}" alt="AdminLTE Logo" class="brand-image " >
         <span class="brand-text font-weight-light">Limousine</span>
     </div>
 
@@ -37,6 +37,14 @@
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
                           Be Our Driver Or Investor
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ route('corporate-partners.index') }}" class="nav-link">
+                        <i class="nav-icon fas fa-hands-helping"></i>
+                        <p>
+                            Be Corporate Partners
                         </p>
                     </a>
                 </li>

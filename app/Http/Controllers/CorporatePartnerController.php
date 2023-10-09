@@ -14,7 +14,8 @@ class CorporatePartnerController extends Controller
      */
     public function index()
     {
-        //
+        $BeOurCorporatePartners = CorporatePartner::all();
+        return view('admin.pages.beCorporatePartner.index', compact('BeOurCorporatePartners'));
     }
 
     /**
