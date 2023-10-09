@@ -33,10 +33,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="{{route('be-our-rls-driver-or-investor.index')}}" class="nav-link">
                         <i class="nav-icon fas fa-columns"></i>
                         <p>
-                          Be a Partner
+                          Be Our Driver Or Investor
                         </p>
                     </a>
                 </li>

@@ -4,6 +4,7 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
+use App\Http\Controllers\BeOurRSLDriverOrInvestorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +30,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('contacts', ContactController::class)->only('index');
+    Route::resource('be-our-rls-driver-or-investor', BeOurRSLDriverOrInvestorController::class)->only('index');
 });
 
 require __DIR__.'/auth.php';
@@ -51,3 +53,4 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/be-our-corporate-partner', 'beOurCorporatePartner')->name('be-our-corporate-partner');
 });
 Route::resource('contacts', ContactController::class)->only('store');
+Route::resource('be-our-rls-driver-or-investor', BeOurRSLDriverOrInvestorController::class)->only('store');
