@@ -26,10 +26,11 @@
                                 <div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;">
                                 </div>
                             </div>
-                            <div class=clear></div>
-                            <div class=clear></div>
+                            <div class="clear"></div>
+                            <div class="clear"></div>
                         </div>
-                        <div class=clear></div>
+                        <div class="clear"></div>
+                    </div>
                 </section>
             </div>
             <div class=with-sidebar-wrapper>
@@ -43,35 +44,52 @@
                                         <p> <span class=clear></span><span class=limoking-space style="margin-top: 25px; display: block;"></span>
                                         <div role=form class=wpcf7 id=wpcf7-f5-o1 lang=en-US dir=ltr>
                                             <div class=screen-reader-response></div>
-                                            <form class="quform" action="https://max-themes.net/demos/limoking/plugins/quform/process.php" method="post" enctype="multipart/form-data" onclick="">
+                                            <form id="form-contact" action="{{ route('contacts.store') }}" method="POST"  >
+                                                @csrf
                                                 <div class="quform-elements">
                                                     <div class="quform-element">
                                                         <br>
-                                                        <span class="wpcf7-form-control-wrap your-name">
-                                                             <input id="name" type="text" name="name" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Name*">
+                                                        <span class=" your-name">
+                                                             <input id="name" type="text" name="name" size="40" class="input1  @error('name') is-invalid @enderror"
+                                                                    aria-required="true" aria-invalid="false" placeholder="Name*">
                                                         </span>
+                                                        @error('name')
+                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
                                                     </div>
                                                     <div class="quform-element">
                                                         <br>
-                                                        <span class="wpcf7-form-control-wrap your-email">
-                                                            <input id="email" type="text" name="email" size="40" class="input1" aria-required="true" aria-invalid="false" placeholder="Email*">
+                                                        <span class=" your-email">
+                                                            <input id="email" type="text" name="email" size="40" class="input1  @error('email') is-invalid @enderror"
+                                                                   aria-required="true" aria-invalid="false" placeholder="Email*">
                                                         </span>
+                                                        @error('email')
+                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
                                                     </div>
                                                     <div class="quform-element">
                                                         <br>
-                                                        <span class="wpcf7-form-control-wrap your-message">
-                                                              <textarea  id="message" name="message" cols="40" rows="10" class="input1" aria-invalid="false" placeholder="Message*"></textarea>
+                                                        <span class=" your-message">
+                                                              <textarea  id="message" name="message" cols="40" rows="10" class="input1  @error('message') is-invalid @enderror"
+                                                                         aria-invalid="false" placeholder="Message*"></textarea>
                                                         </span>
+                                                        @error('message')
+                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        @enderror
                                                     </div>
                                                     <!-- Begin Submit button -->
-                                                    <div class="quform-submit">
-                                                        <div class="quform-submit-inner">
-                                                            <button type="submit" class="submit-button background-color">Send</button>
+                                                    <div class="quform-submit " >
+                                                        <div class="quform-submit-inner ">
+                                                            <button type="submit" id="contact-us-submit" class="submit-button background-color">Send</button>
                                                         </div>
                                                         <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
                                                     </div>
                                                 </div>
                                             </form>
+                                            <div class="alert alert-success mt-2 alert-dismissible show" id="form-success-div"  hidden role="alert">
+                                                <span id="contact-form-output"> </span>
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                            </div>
                                         </div>
                                         </p>
                                     </div>
@@ -112,5 +130,54 @@
         </div>
         <div class=clear></div>
     </div>
+    <link rel='stylesheet'  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script type="text/javascript">
+        jQuery.validator.setDefaults({
+            errorClass: "text-danger",
+            errorElement: "p",
+            errorPlacement: function ( error, element ) {
+                error.addClass( "text-danger" );
+                error.insertAfter( element );
+            }
+        });
+        jQuery("#form-contact").validate({
+            rules: {
+                name: {
+                    required: true,
+                    maxlength:255
+                },
+                email: {
+                    required: true,
+                    maxlength:255,
+                    email:true
+                },
+                message: {
+                    required: true,
+                    maxlength:500
+                },
+            },
+        })
+        jQuery("#contact-us-submit").click(function(e) {
+            e.preventDefault();
+            if( jQuery("#form-contact").valid()) {
+                var form = jQuery("#form-contact");
+                var url = form.attr('action');
+                jQuery.ajax({
+                    type: "POST",
+                    url: url,
+                    data: form.serialize(),
+                    success: function(data) {
+                        jQuery('#form-success-div').attr('hidden', false);
+                        jQuery('#contact-form-output').text("Contact request send successfully");
+                        jQuery("#form-contact").load(" #form-contact");
+                    },
+                });
+            }
 
+        });
+
+    </script>
 @endsection
+
+

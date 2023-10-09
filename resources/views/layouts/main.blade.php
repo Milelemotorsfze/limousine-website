@@ -39,7 +39,8 @@
          :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
          .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
       </style>
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+
       <link rel='stylesheet' id='contact-form-7-css' href="{{asset ('wp-content/plugins/contact-form-7/includes/css/stylesf658.css?ver=5.8.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='style-css' href="{{asset ('wp-content/themes/limoking/style9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <link rel='stylesheet' id='Montserrat-google-font-css' href='http://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&amp;subset=latin&amp;ver=6.3.1' type='text/css' media='all' />
