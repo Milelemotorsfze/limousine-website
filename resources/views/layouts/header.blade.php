@@ -20,7 +20,7 @@
                      <a href="">Be a Partner</a>
                      <ul class="dl-submenu">
                         <li id="menu-item-6249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6249"><a href="{{route('be-our-driver-or-investor')}}">Be Our Driver/Investor</a></li>
-                        <li id="menu-item-6250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partner')}}">Be Our Corporate Partner</a></li>
+                        <li id="menu-item-6250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partners')}}">Be Our Corporate Partner</a></li>
                      </ul>
                   </li>
                </ul>
@@ -49,7 +49,7 @@
                      <a href="" class="sf-with-ul-pre">Be a Partner</a>
                      <ul class="sub-menu">
                         <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6249"><a href="{{route('be-our-driver-or-investor')}}">Be Our Driver/Investor</a></li>
-                        <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partner')}}">Be Our Corporate Partner</a></li>
+                        <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partners')}}">Be Our Corporate Partner</a></li>
                      </ul>
                   </li>
                </ul>

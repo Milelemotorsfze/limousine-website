@@ -5,8 +5,10 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="initial-scale=1.0" />
       <link rel="pingback" href="xmlrpc.php" />
-      <title>lamo</title>
+{{--       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">--}}
+      <title>Milele Limousine</title>
       <meta name='robots' content='max-image-preview:large' />
+
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Feed" href="feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Comments Feed" href="comments/feed/index.html" />
@@ -99,7 +101,7 @@
       <script type='text/javascript' id='contact-form-7-js-extra'>
          var wpcf7 = {"api":{"root":"http:\/\/localhost\/rentacar\/wp-json\/","namespace":"contact-form-7\/v1"}};
       </script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+{{--      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>--}}
       <script type='text/javascript' src="{{asset ('wp-content/plugins/contact-form-7/includes/js/indexf658.js?ver=5.8.1')}}" id='contact-form-7-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/superfish/js/superfish5152.js?ver=1.0')}}" id='superfish-js'></script>
       <script type='text/javascript' src="{{asset ('wp-includes/js/hoverIntent.min3e5a.js?ver=1.10.2')}}" id='hoverIntent-js'></script>
