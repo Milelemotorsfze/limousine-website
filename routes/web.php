@@ -16,7 +16,7 @@ use App\Http\Controllers\Controller;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.home');
 });
 
 Route::get('/dashboard', function () {
@@ -42,5 +42,8 @@ Route::post('/reset-password/otp', [\App\Http\Controllers\Auth\NewPasswordContro
 Route::controller(Controller::class)->group(function(){
     Route::get('/home', 'home')->name('home');
     Route::get('/about-us', 'aboutUs')->name('aboutUs');
-    Route::get('/fleets', 'fleet')->name('fleets');
+    Route::get('/fleets', 'fleets')->name('fleets');
+    Route::get('/our-service', 'ourService')->name('our-service');
+    Route::get('/be-our-driver-or-investor', 'beOurDriverOrInvestor')->name('be-our-driver-or-investor');
+    Route::get('/be-our-corporate-partner', 'beOurCorporatePartner')->name('be-our-corporate-partner');
 });
