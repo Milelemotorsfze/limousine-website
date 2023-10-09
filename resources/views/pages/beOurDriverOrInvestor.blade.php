@@ -2,6 +2,10 @@
 @section('content')
 <link rel='stylesheet'  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous">
 <style>
+    a {
+        text-decoration: none;
+        color: black;
+    }
 </style>
 <br>
 <div class="container mt-5 mb-5">
