@@ -19,7 +19,11 @@
             text-decoration: none;
             color: black;
         }
+        input[type=text] {
+            background-color: #FFFFFF !important;
+            border: solid 1px #dee2e6 !important;
 
+        }
     </style>
     <div class="content-wrapper">
         <div class="limoking-content">
@@ -50,14 +54,18 @@
                                         <p> <span class=clear></span><span class=limoking-space style="margin-top: 25px; display: block;"></span>
                                         <div role="form" class="wpcf7" id="wpcf7-f5-o1" lang="en-US" dir="ltr">
                                             <div class="screen-reader-response"></div>
+                                            <div class="alert alert-success mt-2 alert-dismissible show" id="form-success-div"  hidden role="alert">
+                                                <span id="contact-form-output"> </span>
+                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                            </div>
                                             <form id="form-contact" action="{{ route('contacts.store') }}" method="POST"  >
                                                 @csrf
                                                 <div class="quform-elements">
                                                     <div class="quform-element">
                                                         <br>
                                                         <span class=" your-name">
-                                                             <input id="name" type="text" name="name" size="40" class="input1  @error('name') is-invalid @enderror"
-                                                                    aria-required="true" aria-invalid="false" placeholder="Name*">
+                                                             <input id="name" type="text" name="name" size="40" class="form-control form-control-lg  @error('name') is-invalid @enderror"
+                                                                    aria-required="true" aria-invalid="false" placeholder="Name *">
                                                         </span>
                                                         @error('name')
                                                         <div class="alert alert-danger">{{ $message }}</div>
@@ -66,8 +74,8 @@
                                                     <div class="quform-element">
                                                         <br>
                                                         <span class=" your-email">
-                                                            <input id="email" type="text" name="email" size="40" class="input1  @error('email') is-invalid @enderror"
-                                                                   aria-required="true" aria-invalid="false" placeholder="Email*">
+                                                            <input id="email" type="text" name="email" size="40" class="form-control form-control-lg  @error('email') is-invalid @enderror"
+                                                                   aria-required="true" aria-invalid="false" placeholder="Email *">
                                                         </span>
                                                         @error('email')
                                                         <div class="alert alert-danger">{{ $message }}</div>
@@ -76,15 +84,15 @@
                                                     <div class="quform-element">
                                                         <br>
                                                         <span class=" your-message">
-                                                              <textarea  id="message" name="message" cols="40" rows="10" class="input1  @error('message') is-invalid @enderror"
-                                                                         aria-invalid="false" placeholder="Message*"></textarea>
+                                                              <textarea  id="message" name="message" cols="40" rows="10" class="form-control form-control-lg  @error('message') is-invalid @enderror"
+                                                                         aria-invalid="false" style=" background-color: #FFFFFF !important;border: solid 1px #dee2e6 !important;" placeholder="Message*"></textarea>
                                                         </span>
                                                         @error('message')
                                                         <div class="alert alert-danger">{{ $message }}</div>
                                                         @enderror
                                                     </div>
                                                     <!-- Begin Submit button -->
-                                                    <div class="quform-submit " >
+                                                    <div class="quform-submit mt-3" >
                                                         <div class="quform-submit-inner ">
                                                             <button type="submit" id="contact-us-submit" class="submit-button background-color">Send</button>
                                                         </div>
@@ -92,10 +100,7 @@
                                                     </div>
                                                 </div>
                                             </form>
-                                            <div class="alert alert-success mt-2 alert-dismissible show" id="form-success-div"  hidden role="alert">
-                                                <span id="contact-form-output"> </span>
-                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                            </div>
+
                                         </div>
                                         </p>
                                     </div>

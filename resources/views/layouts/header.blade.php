@@ -1,4 +1,14 @@
-
+<style>
+    @media only screen and (max-device-width: 320px), only screen and (min-device-width: 240px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+        .logo-image {
+            width: 150px !important;
+        }
+        #limoking-responsive-navigation .dl-trigger {
+            top: 15px !important;
+            height: ;
+        }
+    }
+</style>
 <header class="limoking-header-wrapper header-style-5-wrapper limoking-header-no-top-bar" >
     <!-- top navigation -->
     <div id="limoking-header-substitute" style="height: 0px;"></div>
@@ -6,14 +16,13 @@
         <div class="limoking-header-container container">
             <div class="limoking-header-inner-overlay"></div>
             <!-- logo -->
-            <div class="limoking-logo" style="margin-bottom: 0px;margin-top: 10px">
+            <div class="limoking-logo" style="margin: 0px">
                 <div class="limoking-logo-inner">
-                    <a href="https://demo.goodlayers.com/limoking/yellow/">
-                        <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" alt="" width="300" height="73">		</a>
+                     <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" class="logo-image" alt="limousine-logo" width="300" >
                 </div>
-                <div class="limoking-responsive-navigation dl-menuwrapper" id="limoking-responsive-navigation">
-                    <button class="dl-trigger">Open Menu</button>
-                    <ul id="menu-main-menu" class="dl-menu limoking-main-mobile-menu">
+                <div class="limoking-responsive-navigation dl-menuwrapper" id="limoking-responsive-navigation" >
+                    <button class="dl-trigger" style="">Open Menu</button>
+                    <ul id="menu-main-menu" class="dl-menu limoking-main-mobile-menu" style="margin-top: 5px">
                         <li id="menu-item-6241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241"><a href="{{route('home')}}" aria-current="page">Home</a></li>
                         <li id="menu-item-6242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242"><a href="{{route('aboutUs')}}">About Us</a></li>
                         <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('fleets')}}">Fleet</a></li>
@@ -30,7 +39,7 @@
                 </div>
             </div>
             <div class="limoking-logo-right-wrapper">
-                <div class="limoking-logo-right-text">
+                <div class="limoking-logo-right-text" style="padding-top: 0px;padding-bottom: 5px">
                     <img src="{{ asset('images/phone-icon.png') }}" alt="phone-icon" style="vertical-align: middle;">
                     <span style="color: #ffffff; margin-left: 11px; margin-right: 25px;  font-size: 15px; line-height: 1.1;">(+971)-333-3333</span>
                     <img src="{{ asset('images/envelope-icon.png') }}" alt="mail-icon" style="vertical-align: middle;">

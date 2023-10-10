@@ -31,12 +31,10 @@ class CorporatePartnerController extends Controller
      */
     public function store(Request $request)
     {
-//      return $request->all();
         $request->validate([
             'company_name' => 'required',
             'email' => 'required|email',
             'mobile' => 'required',
-            'file' => 'required'
         ]);
 
         $corporatePartner = new CorporatePartner();

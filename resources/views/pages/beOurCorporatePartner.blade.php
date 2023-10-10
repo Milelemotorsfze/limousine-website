@@ -21,7 +21,8 @@
                         </div>
                     @endif
                     @if (Session::get('success') )
-                        <div class="alert alert-success" role="alert">  {{ Session::get('success') }}
+                        <div class="alert alert-success alert-dismissible" role="alert">  {{ Session::get('success') }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @endif
                     <form id="form-create" method="POST" action="{{ route('corporate-partners.store')}}" enctype="multipart/form-data">
@@ -313,10 +314,7 @@
                             </div>
                         </div>
                     </form>
-                    <div class="alert alert-success mt-2 alert-dismissible show" id="form-success-div"  hidden role="alert">
-                        <span id="form-output"> </span>
-                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -359,27 +357,6 @@
                 }
             },
         })
-        // jQuery("#form-submit").click(function(e) {
-        //     e.preventDefault();
-        //     if( jQuery("#form-create").valid()) {
-        //
-        //         var form = jQuery("#form-create");
-        //         var url = form.attr('action');
-        //         jQuery.ajax({
-        //             type: "POST",
-        //             url: url,
-        //             contentType: false,
-        //             cache: false,
-        //             processData:false,
-        //             data: form.serialize(),
-        //             success: function(data) {
-        //                 jQuery('#form-success-div').attr('hidden', false);
-        //                 jQuery('#form-output').text("Request send successfully");
-        //                 jQuery("#form-create").load(" #form-create");
-        //             },
-        //         });
-        //     }
-        //
-        // });
+
     </script>
 @endsection

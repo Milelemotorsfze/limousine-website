@@ -2,6 +2,12 @@
 @section('content')
 <link rel='stylesheet'  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous">
 <style>
+    input[type=text] {
+        background-color: #FFFFFF;
+        border: solid 1px #dee2e6;
+
+    }
+
     a {
         text-decoration: none;
         color: black;
@@ -11,25 +17,35 @@
 <div class="container margin-width">
 	<div class="row  justify-content-center align-items-center" id="locateus">
 		<div class="col-lg-6 col-md-12 col-sm-12" style="padding: 60px 40px 90px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
-			<form id="be_driver_or_invester_form" action="{{route('be-our-rls-driver-or-investor.store')}}" method="POST">
+            @if (Session::get('error') )
+                <div class="alert alert-danger" role="alert">  {{ Session::get('error') }}
+                </div>
+            @endif
+            @if (Session::get('success') )
+                <div class="alert alert-success alert-dismissible" role="alert">  {{ Session::get('success') }}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            @endif
+			<form id="be_driver_or_invester_form" action="{{route('be-our-rls-driver-or-investor.store')}}" method="POST" enctype="multipart/form-data">
 				@csrf
 				<div class="row" style="margin-bottom: 2%;">
 					<h4>Be Our RSL Driver/Investor</h4>
 				</div>
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
 						<div class="form-group">
-							<input type="text" name="name" class="form-control form-control-lg" placeholder="Name *" required="" value="">
+							<input type="text" name="name" class="form-control form-control-lg " placeholder="Name *" value="">
 						</div>
 					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
 						<div class="form-group">
-							<input type="email" name="email" class="form-control form-control-lg" placeholder="Email ( Optional )" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" value="">
+							<input type="text" name="email" class="form-control form-control-lg " placeholder="Email ( Optional )"
+                                   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" value="">
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sx-3 mb-3">
+					<div class="col-lg-3 col-md-3 col-sx-3 mb-2">
 						<div class="form-group">
-							<select name="country_code" class="form-control form-control-lg" placeholder="Country Code *" required="">
+							<select name="country_code" class="form-control form-control-lg " placeholder="Country Code *" >
 								<option value="376">+376</option>
 								<option value="971">+971</option>
 								<option value="93">+93</option>
@@ -281,42 +297,55 @@
 							</select>
 						</div>
 					</div>
-					<div class="col-lg-9 col-md-9 col-sx-9 mb-3">
+					<div class="col-lg-9 col-md-9 col-sx-9 mb-2">
 						<div class="form-group">
-							<input type="text" name="number" class="form-control form-control-lg" placeholder="Mobile Number *" maxlength="10" required="" value="">
+							<input type="text" name="number" class="form-control form-control-lg" placeholder="Mobile Number *" maxlength="10"  value="">
 						</div>
 					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
 						<label for="vehicle">Select vehicle *</label>
 						<div class="form-group">
-						<select name="vehicle" class="form-control" placeholder="Vehicle" required="" data-gtm-form-interact-field-id="0"><option value="">Select vehicle</option><option value="1">LEXUS ES 300H</option><option value="2">VOLKSWAGEN TERAMONT</option><option value="3">TESLA MODEL Y (LONG RANGE)</option><option value="4">GMC YUKON XL</option><option value="5">MERCEDES V-CLASS</option><option value="6">CHEVROLET SUBURBAN</option><option value="7">CADILLAC ESCALADE ESV</option><option value="8">MERCEDES S-CLASS</option><option value="9">OTHER TYPE OF VEHICLE</option></select>
+						<select name="vehicle" class="form-select form-select-lg" placeholder="Vehicle" style=" background-color: #FFFFFF;border: solid 1px #dee2e6;" >
+                            <option value="">Select vehicle</option>
+                            <option value="LEXUS ES 300">LEXUS ES 300</option>
+{{--                            <option value="2">VOLKSWAGEN TERAMONT</option>--}}
+                            <option value="TESLA MODEL Y">TESLA MODEL Y </option>
+                            <option value="GMC YUKON XL">GMC YUKON XL</option>
+{{--                            <option value="5">MERCEDES V-CLASS</option>--}}
+{{--                            <option value="6">CHEVROLET SUBURBAN</option>--}}
+{{--                            <option value="7">CADILLAC ESCALADE ESV</option>--}}
+{{--                            <option value="8">MERCEDES S-CLASS</option>--}}
+{{--                            <option value="9">OTHER TYPE OF VEHICLE</option>--}}
+                        </select>
 						</div>
 					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
 						<label for="passport_or_visa_copy">Passport (or) Visa copy *</label>
 						<div class="form-group">
-							<input type="file" name="passport_or_visa_copy" class="form-control form-control-lg" required="">
+							<input type="file" name="passport_or_visa_copy" class="form-control form-control-lg @error('passport_or_visa_copy') is-invalid @enderror" >
 						</div>
 					</div>
-					<div class="col-lg-12 col-md-12 col-sm-12 mb-3">
-						<label for="driver_license">Driver License *</label>
+					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
+						<label for="driver_license">Driver License </label>
 						<div class="form-group">
-							<input type="file" name="driver_license" class="form-control form-control-lg" required="">
+							<input type="file" name="driver_license" class="form-control form-control-lg" >
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12">
-						<button ID="be_our_driver_or_investor_form_submit" type="submit" class="btn background-color text-white btn-lg" style="width: 100%;">Send</button>
+						<button id="be_our_driver_or_investor_form_submit" type="submit" class="btn background-color text-white btn-lg" style="width: 100%;">Send</button>
 					</div>
 				</div>
 			</form>
-			<div class="alert alert-success mt-2 alert-dismissible show" id="driver-form-success-div"  hidden role="alert">
-                                                <span id="beOwnerInvester-form-output"> </span>
-                                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                                            </div>
+{{--			<div class="alert alert-success mt-2 alert-dismissible show" id="driver-form-success-div"  hidden role="alert">--}}
+{{--                <span id="beOwnerInvester-form-output"> </span>--}}
+{{--                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>--}}
+{{--            </div>--}}
 		</div>
 	</div>
 </div>
 <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js" ></script>
+
     <script type="text/javascript">
         jQuery.validator.setDefaults({
             errorClass: "text-danger",
@@ -333,7 +362,7 @@
                     maxlength:255
                 },
                 email: {
-                    required: true,
+                    // required: true,
                     maxlength:255,
                     email:true
                 },
@@ -344,38 +373,28 @@
                 number: {
                     required: true,
                     maxlength:20,
-                    minlength:5
+                    minlength:5,
+                    number:true
                 },
                 vehicle: {
                     required: true
                 },
                 passport_or_visa_copy: {
-                    required: true
+                    required: true,
+                    extension: "pdf|png|jpg|jpeg|svg"
                 },
                 driver_license: {
-                    required: true
+                    extension: "pdf|png|jpg|jpeg|svg"
                 },
             },
+            messages: {
+                passport_or_visa_copy: {
+                    extension: "File type not allowed.Please refer file type here..(eg: pdf,png,jpg,jpeg,svg..)"
+                },
+                driver_license: {
+                    extension: "File type not allowed.Please refer file type here..(eg: pdf,png,jpg,jpeg,svg..)"
+                }
+            },
         })
-        jQuery("#be_our_driver_or_investor_form_submit").click(function(e) {
-            e.preventDefault();
-            if( jQuery("#be_driver_or_invester_form").valid()) {
-				alert('hi');
-                var form = jQuery("#be_driver_or_invester_form");
-                var url = form.attr('action');
-                jQuery.ajax({
-                    type: "POST",
-                    url: url,
-                    data: form.serialize(),
-                    success: function(data) {
-                        jQuery('#driver-form-success-div').attr('hidden', false);
-                        jQuery('#beOwnerInvester-form-output').text("Contact request send successfully");
-                        jQuery("#be_driver_or_invester_form").load(" #be_driver_or_invester_form");
-                    },
-                });
-            }
-
-        });
-
     </script>
 @endsection

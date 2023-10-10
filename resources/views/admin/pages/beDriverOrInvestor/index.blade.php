@@ -45,8 +45,18 @@
                                             <td>{{ $data->email }}</td>
                                             <td>{{ $data->country_code }} {{ $data->number }}</td>
                                             <td>{{ $data->vehicle }}</td>
-                                            <td>{{ $data->passport_or_visa_copy }}</td>
-                                            <td>{{ $data->driver_license }}</td>
+                                            <td>
+                                                <a href="{{ asset('/Be-Our-RSL-Driver/passport-or-visa/'. $data->passport_or_visa_copy) }}" target="_blank"
+                                                title="Click Here to View">
+                                                    {{ $data->passport_or_visa_copy }}
+                                                </a>
+                                            </td>
+                                            <td>
+                                                <a href="{{ asset('/Be-Our-RSL-Driver/passport-or-visa/'. $data->passport_or_visa_copy) }}" target="_blank"
+                                                   title="Click Here to View">
+                                                    {{ $data->driver_license }}
+                                                </a>
+                                            </td>
                                             <td>{{ \Illuminate\Support\Carbon::parse($data->created_at)->format('d M y')  }}</td>
                                         </tr>
                                     @endforeach
