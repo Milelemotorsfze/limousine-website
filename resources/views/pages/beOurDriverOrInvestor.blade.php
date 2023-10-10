@@ -299,7 +299,7 @@
 					</div>
 					<div class="col-lg-9 col-md-9 col-sx-9 mb-2">
 						<div class="form-group">
-							<input type="text" name="number" class="form-control form-control-lg" placeholder="Mobile Number *" maxlength="10"  value="">
+							<input type="text" name="number" class="form-control form-control-lg" placeholder="Mobile Number *" value="">
 						</div>
 					</div>
 					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
@@ -336,10 +336,6 @@
 					</div>
 				</div>
 			</form>
-{{--			<div class="alert alert-success mt-2 alert-dismissible show" id="driver-form-success-div"  hidden role="alert">--}}
-{{--                <span id="beOwnerInvester-form-output"> </span>--}}
-{{--                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>--}}
-{{--            </div>--}}
 		</div>
 	</div>
 </div>

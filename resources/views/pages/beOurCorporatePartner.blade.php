@@ -293,7 +293,7 @@
                             <div class="col-lg-9 col-md-9 col-sm-9 mb-3">
                                 <div class="form-group">
                                     <input type="text" name="mobile" class="form-control form-control-lg" placeholder="Mobile Number *"
-                                           maxlength="10" value="{{old('mobile')}}">
+                                           value="{{old('mobile')}}">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
@@ -308,7 +308,6 @@
                                     <input type="file" name="file" id="file" class="form-control form-control-lg">
                                 </div>
                             </div>
-{{--                            <div class="col-lg-12 col-md-12 col-sm-12"><span style="color: red;"></span></div>--}}
                             <div class="col-lg-12 col-md-12 col-sm-12">
                                 <button type="submit" id="form-submit" class="btn background-color text-white btn-lg" style="width: 100%;">Send</button>
                             </div>

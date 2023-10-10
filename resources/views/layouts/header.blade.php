@@ -1,13 +1,20 @@
 <style>
+    @media only screen and (max-device-width: 570px), only screen and (min-device-width: 320px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
+        .logo-image {
+            width: 160px !important;
+        }
+    }
     @media only screen and (max-device-width: 320px), only screen and (min-device-width: 240px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2) {
         .logo-image {
-            width: 150px !important;
+            width: 130px !important;
         }
         #limoking-responsive-navigation .dl-trigger {
             top: 15px !important;
-            height: ;
         }
     }
+    /*#limoking-responsive-navigation .dl-trigger {*/
+    /*    top: 15px !important;*/
+    /*}*/
 </style>
 <header class="limoking-header-wrapper header-style-5-wrapper limoking-header-no-top-bar" >
     <!-- top navigation -->
@@ -39,11 +46,11 @@
                 </div>
             </div>
             <div class="limoking-logo-right-wrapper">
-                <div class="limoking-logo-right-text" style="padding-top: 0px;padding-bottom: 5px">
-                    <img src="{{ asset('images/phone-icon.png') }}" alt="phone-icon" style="vertical-align: middle;">
-                    <span style="color: #ffffff; margin-left: 11px; margin-right: 25px;  font-size: 15px; line-height: 1.1;">(+971)-333-3333</span>
-                    <img src="{{ asset('images/envelope-icon.png') }}" alt="mail-icon" style="vertical-align: middle;">
-                    <span style="color: #ffffff; margin-left: 11px; font-size: 15px; line-height: 1.1;">info@milelelamous.com</span>
+                <div class="limoking-logo-right-text" style="padding-top: 0px;padding-bottom: 5px;">
+                    <i class="fa fa-phone" style="color: #FFFFFF"  ></i>
+                    <span style="color: #ffffff;margin-right: 15px; font-size: 15px; line-height: 1.1;">(+971)-333-3333</span>
+                    <i class="fa fa-envelope" style="color: #FFFFFF"  ></i>
+                    <span style="color: #ffffff; font-size: 15px; line-height: 1.1;">info@milelelamous.com</span>
                 </div>
                 <div class="limoking-navigation-wrapper" style="margin-right: 0px;height: 40px">
                     <nav class="limoking-navigation" id="limoking-main-navigation">
