@@ -87,9 +87,9 @@
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
       <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >
 	  	@include('layouts.header')
-			<div class="content-wrapper">
+			<div class="content-wrapper" >
 				<div class="limoking-content">
-					<div class="with-sidebar-wrapper">
+					<div class="with-sidebar-wrapper" >
 						@yield('content')
 					</div>
 				</div>
