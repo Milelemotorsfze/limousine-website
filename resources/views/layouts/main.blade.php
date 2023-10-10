@@ -3,7 +3,7 @@
    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
    <head>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="initial-scale=1.0" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="pingback" href="xmlrpc.php" />
       <title>lamo</title>
       <meta name='robots' content='max-image-preview:large' />

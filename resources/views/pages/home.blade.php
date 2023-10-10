@@ -1,61 +1,158 @@
 @extends('layouts.main')
 @section('content')
-<section id="content-section-1" >
-   <div class="limoking-full-size-wrapper gdlr-show-all no-skin"  style="padding-bottom: 0px;  background-color: #ffffff; "  >
-      <div class="limoking-master-slider-item limoking-slider-item limoking-item"  style="margin-bottom: 0px;"  >
-         <div id="P_MS651fe95640c1c" class="master-slider-parent ms-parent-id-1" style="" >
-            <div id="MS651fe95640c1c" class="master-slider ms-skin-default" >
-               <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+   /* Style the car container with a rounded border */
+   .car-container {
+   border: 1px solid #ccc;
+   border-radius: 10px; /* Add round border */
+   padding: 20px;
+   margin-top: 20px;
+   }
+   /* Style the car details container */
+   .car-details {
+   text-align: center;
+   padding: 20px;
+   margin-top: 20px;
+   }
+   /* Style the car name */
+   .car-title {
+   font-size: 24px;
+   margin-top: 10px;
+   color:#c69955;
+   }
+   /* Style the passenger info */
+   .passenger-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+   }
+   /* Style the left and right info sections */
+   .left-info,
+   .right-info {
+   flex: 1;
+   text-align: center;
+   }
+   /* Style the vertical line separator */
+   .vertical-line {
+   border-left: 1px solid #c69955;
+   height: 40px;
+   margin: 0 20px;
+   }
+   /* Style the buttons container */
+   .buttons {
+   margin-top: 5px;
+   display: flex; /* Use flexbox to make buttons appear in one row */
+   justify-content: center; /* Center align buttons horizontally */
+   }
+   .book-button,
+   .partner-button {
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #007bff; /* Blue color, you can change this */
+   color: #fff;
+   text-decoration: none;
+   margin-right: 5px;
+   border-radius: 5px; /* Add round button border */
+   }
+   /* Hover effect for buttons */
+   .book-button:hover,
+   .partner-button:hover {
+   background-color: #0056b3; /* Darker blue on hover */
+   }
+   .car-border
+   {
+    border:1px ridge #c69955; 
+    border-radius:10px;
+   }
+   .portfolio-item-filter span, .car-item-filter span {
+    color: #aeaeae;
+}
+.lexusimage
+{
+   width:100%!important;
+   height:auto!important;
+}
+
+.Ipad,.Mobile{display:none;}
+
+@media(max-width: 768px){
+  .Desktop,.Mobile{
+    display:none;
+  }
+  .Ipad{
+    display:block;
+  }
+}
+@media(max-width: 500px){
+  .Desktop,.Ipad{
+    display:none;
+  }
+  .Mobile{
+    display:block;
+  }
+}
+</style>
+<section id="content-section-1" >  
+   <div class="limoking-full-size-wrapper gdlr-show-all no-skin"  style="padding-bottom: 0px;  background-color: #ffffff; "  >  
+      <div class="limoking-master-slider-item limoking-slider-item limoking-item"  style="margin-bottom: 0px;"  >      
+         <div id="P_MS651fe95640c1c" class="master-slider-parent ms-parent-id-1" style="" >         
+            <div id="MS651fe95640c1c" class="master-slider ms-skin-default " >
+               <!-- <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
                   <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
                      data-src="{{asset ('wp-content/uploads/2014/04/8470271681_35226b225c_k1.jpg')}}" />
                   <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"  
                      data-ease="easeOutBack"                data-offset-x="150" data-offset-y="429" data-origin="tl"   >
                      FULL SCREEN BACKGROUND SUPPORT
                   </div>
+               </div> -->
+               <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
+                  <!-- <img src="{{asset ('uploads/Sliders/GMC.jpg')}}" alt="" title="" 
+                     data-src="{{asset ('uploads/Sliders/GMC.jpg')}}" style="max-width:100%; "/> -->
+                     <img src="{{asset ('uploads/Sliders/GMC.jpg')}}" 
+                     data-src="{{asset ('uploads/Sliders/GMC.jpg')}}" class="Desktop" style="max-width:100%; object-fit: contain;">
+<img   src="{{asset('uploads/mobile-slider/GMC - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/GMC - Slider1.jpg')}}" class="Ipad" style="max-width:100%; ">
+<img src="{{asset('uploads/mobile-slider/GMC - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/GMC - Slider1.jpg')}}" class="Mobile" style="max-width:100%; ">
+                  <!-- <div  class="ms-layer msp-cn-290-1" style="" data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"  
+                     data-ease="easeOutBack" data-offset-x="150" data-offset-y="429" data-origin="tl"   >
+                     FULL SCREEN BACKGROUND SUPPORT
+                  </div> -->
                </div>
-               <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/5226290116_4c46f5e023_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-3" style=""   data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="950" data-delay="762" 
-                     data-ease="easeOutQuint"                data-offset-x="428" data-offset-y="436" data-origin="tl"   >
-                     TEMPLATE
-                  </div>
-                  <div  class="ms-layer  msp-cn-290-2" style=""   data-effect="t(true,n,-150,n,n,70,n,n,n,n,n,n,n,n,n)" data-duration="1500"  
-                     data-ease="easeInOutQuart"                data-offset-x="428" data-offset-y="352" data-origin="tl"   >
-                     FULLSCREEN
-                  </div>
-                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/btn-red.png')}}" alt="" style=""  
-                     data-effect="t(true,n,n,n,n,n,n,n,1.5,1.5,n,n,n,n,n)" data-duration="1500" data-delay="500" data-ease="easeInOutQuart"        data-type="image"  
-                     data-offset-x="760" data-offset-y="381" data-origin="tl"  />
+               <div  class="ms-slide " data-delay="3" data-fill-mode="fill"   >
+                  <!-- <img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS.jpg')}}" alt="" title="" 
+                     data-src="{{asset ('uploads/Sliders/LEXUS.jpg')}}" style="max-width:100%; " /> -->
+                     <img src="{{asset ('uploads/Sliders/LEXUS.jpg')}}" 
+                     data-src="{{asset ('uploads/Sliders/LEXUS.jpg')}}" class="Desktop" style="max-width:100%; object-fit: contain;">
+<img   src="{{asset('uploads/mobile-slider/LEXUS - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/LEXUS - Slider1.jpg')}}" class="Ipad" style="max-width:100%; ">
+<img src="{{asset('uploads/mobile-slider/LEXUS - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/LEXUS - Slider1.jpg')}}" class="Mobile" style="max-width:100%; ">
+                  <!-- <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"  
+                     data-ease="easeOutBack" data-offset-x="150" data-offset-y="429" data-origin="tl"   >
+                     FULL SCREEN BACKGROUND SUPPORT
+                  </div> -->
                </div>
-               <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/5744683415_f3c781a3f8_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
-                     data-ease="easeOutExpo"                data-offset-x="0" data-offset-y="309" data-origin="tl"   >
+               <div  class="ms-slide " data-delay="3" data-fill-mode="fill">
+                  <!-- <img src="{{asset ('uploads/Sliders/TESLA.jpg')}}" alt="" title="" 
+                     data-src="{{asset ('uploads/Sliders/TESLA.jpg')}}" style="max-width:100%; "  /> -->
+                     <img src="{{asset ('uploads/Sliders/TESLA.jpg')}}" 
+                     data-src="{{asset ('uploads/Sliders/TESLA.jpg')}}" class="Desktop" style="max-width:100%; object-fit: contain;">
+<img   src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" class="Ipad" style="max-width:100%; ">
+<img src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" 
+data-src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" class="Mobile" style="max-width:100%; ">
+                     <!-- style="object-fit: contain;"   -->
+                  <!-- <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+                     data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl"   >
                      CONSEQUAT VEL FEUGIAT
                   </div>
                   <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
-                     data-ease="easeOutExpo"                data-offset-x="203" data-offset-y="254" data-origin="tl"   >
+                     data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
                      VULPUTATE VELIT
-                  </div>
-               </div>
-               <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/5787202365_5748348264_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-8" style=""   data-effect="t(true,-250,n,n,n,n,n,n,n,n,-25,n,n,n,n)" data-duration="1112" data-delay="375" 
-                     data-ease="easeOutQuint"                data-offset-x="481" data-offset-y="434" data-origin="tl"   >
-                     BLANDIT PERAESENT
-                  </div>
-                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/btn-blue.png')}}" alt="" style=""  
-                     data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1112" data-delay="212" data-ease="easeOutQuint"        data-type="image"  
-                     data-offset-x="482" data-offset-y="472" data-origin="tl"  />
-                  <div  class="ms-layer  msp-cn-290-10" style=""   data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)"  data-delay="237" data-ease="easeOutQuint"
-                     data-offset-x="477" data-offset-y="375" data-origin="tl"   >
-                     ESSE MOLESTIE
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>
@@ -121,22 +218,27 @@
    <div class="clear"></div>
 </section>
 <section id="content-section-2" >
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/fleet-bg-hp-yellow.jpg'); padding-top: 72px; padding-bottom: 430px; " >
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   style="background-image: url('{{asset ('uploads/Sliders/Website - Banner.jpg')}}'); padding-top: 72px; padding-bottom: 567px;" >
       <div class="container">
          <div class="limoking-title-item"  >
             <div class="limoking-item-title-wrapper limoking-item  limoking-center-icon-divider limoking-large ">
                <div class="limoking-item-title-container container">
                   <div class="limoking-item-title-head-inner">
-                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">We serve you like a king</h3>
+                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">
+                        <!-- We serve you like a king -->
+                     </h3>
                   </div>
                   <div class="limoking-nav-title">
                      <div class="limoking-item-title-content-icon-divider-wrapper" >
-                        <div class="limoking-item-title-center-icon-divider"></div>
+                        <!-- <div class="limoking-item-title-center-icon-divider"></div>
                         <i class="fa fa-star" ></i>
-                        <div class="limoking-item-title-center-icon-divider"></div>
+                        <div class="limoking-item-title-center-icon-divider"></div> -->
                      </div>
                   </div>
-                  <div class="limoking-item-title-caption limoking-skin-info">We offer you a super VIP experience in middle of New York.</div>
+                  <div class="limoking-item-title-caption limoking-skin-info">
+                     <!-- We offer you a super VIP experience in middle of New York. -->
+                  </div>
                </div>
             </div>
          </div>
@@ -167,7 +269,17 @@
          </div>
          <div class="car-item-wrapper type-modern-car"  data-ajax="wp-admin/admin-ajax.html" >
             <div class="limoking-ajax-info" data-num-fetch="9" data-num-excerpt="0" data-orderby="date" data-order="desc" data-thumbnail-size-featured="thumbnail" data-thumbnail-size="full" data-car-style="modern-car" data-car-size="3" data-car-layout="carousel" data-price-display="none" data-ajax="wp-admin/admin-ajax.php" data-category="" data-pagination="disable" ></div>
-            <div class="car-item-filter"><span class="limoking-separator" >/</span><a class="active" href="#" data-category="" >All</a><span class="limoking-separator" >/</span><a class="" href="#" data-category="party-bus" >Party Bus</a><span class="limoking-separator" >/</span><a class="" href="#" data-category="sedan" >Sedan</a><span class="limoking-separator" >/</span><a class="" href="#" data-category="stretch-limo" >Stretch Limo</a><span class="limoking-separator" >/</span><a class="" href="#" data-category="suv-limo" >SUV Limo</a></div>
+            <div class="car-item-filter">
+               <!-- <a class="active" href="#" data-category="" >All</a> -->
+               <span class="limoking-separator" >/</span>
+               <!-- <a class="" href="#"> -->
+                  SEDAN
+               <!-- </a> -->
+               <span class="limoking-separator" >/</span>
+               <!-- <a class="" href="#"> -->
+                  SUV LIMO
+               <!-- </a> -->
+            </div>
             <div class="car-item-holder  limoking-car-column-3">
                <div class="limoking-car-carousel-item limoking-item" >
                   <div class="flexslider" data-type="carousel" data-nav-container="car-item-wrapper" data-columns="3" >
@@ -238,6 +350,7 @@
    </div>
    <div class="clear"></div>
 </section>
+@include('pages.fleetdetails')
 <section id="content-section-8" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  id="limoking-parallax-wrapper-3" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 95px; padding-bottom: 50px; " >
       <div class="container">

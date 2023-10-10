@@ -13,9 +13,8 @@
                <ul id="menu-main-menu" class="dl-menu limoking-main-mobile-menu">
                   <li id="menu-item-6241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241"><a href="{{route('home')}}" aria-current="page">Home</a></li>
                   <li id="menu-item-6242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242"><a href="{{route('aboutUs')}}">About Us</a></li>
-                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('fleets')}}">Fleet</a></li>
+                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('fleets')}}">Fleets</a></li>
                   <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('our-service')}}">Services</a></li>
-                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                   <li id="menu-item-6248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248">
                      <a href="">Be a Partner</a>
                      <ul class="dl-submenu">
@@ -23,6 +22,8 @@
                         <li id="menu-item-6250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partner')}}">Be Our Corporate Partner</a></li>
                      </ul>
                   </li>
+                  <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{ route('contact-us') }}">Contact Us</a></li>
+                 
                </ul>
             </div>
          </div>
@@ -42,9 +43,8 @@
                <ul id="menu-main-menu-1" class="sf-menu limoking-main-menu">
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5702 current_page_item menu-item-6241 limoking-normal-menu"><a href="{{route('home')}}">Home</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242menu-item menu-item-type-post_type menu-item-object-page menu-item-6242 limoking-normal-menu"><a href="{{route('aboutUs')}}">About Us</a></li>
-                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('fleets')}}">Fleet</a></li>
+                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('fleets')}}">Fleets</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('our-service')}}">Services</a></li>
-                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('contact-us')}}">Contact Us</a></li>
                   <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248 limoking-normal-menu">
                      <a href="" class="sf-with-ul-pre">Be a Partner</a>
                      <ul class="sub-menu">
@@ -52,6 +52,8 @@
                         <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partner')}}">Be Our Corporate Partner</a></li>
                      </ul>
                   </li>
+                  <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('contact-us')}}">Contact Us</a></li>
+                  
                </ul>
                <img id="limoking-menu-search-button" src="wp-content/themes/limoking/images/magnifier-light.png" alt="" width="58" height="59" />
                <div class="limoking-menu-search" id="limoking-menu-search">
