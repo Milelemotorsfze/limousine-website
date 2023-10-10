@@ -19,8 +19,9 @@
             text-decoration: none;
             color: black;
         }
+
     </style>
-    <div class="content-wrapper">
+    <div class="content-wrapper slider-margin-width">
         <div class="limoking-content">
             <div class="above-sidebar-wrapper">
                 <section id="content-section-1">

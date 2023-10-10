@@ -1,56 +1,56 @@
 @extends('layouts.main')
 @section('content')
-<section id="content-section-1" >
+<section id="content-section-1 slider-margin-width" >
    <div class="limoking-full-size-wrapper gdlr-show-all no-skin"  style="padding-bottom: 0px;  background-color: #ffffff; "  >
       <div class="limoking-master-slider-item limoking-slider-item limoking-item"  style="margin-bottom: 0px;"  >
          <div id="P_MS651fe95640c1c" class="master-slider-parent ms-parent-id-1" style="" >
             <div id="MS651fe95640c1c" class="master-slider ms-skin-default" >
                <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
+                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title=""
                      data-src="{{asset ('wp-content/uploads/2014/04/8470271681_35226b225c_k1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"  
+                  <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"
                      data-ease="easeOutBack"                data-offset-x="150" data-offset-y="429" data-origin="tl"   >
                      FULL SCREEN BACKGROUND SUPPORT
                   </div>
                </div>
                <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
+                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title=""
                      data-src="{{asset ('wp-content/uploads/2014/04/5226290116_4c46f5e023_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-3" style=""   data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="950" data-delay="762" 
+                  <div  class="ms-layer  msp-cn-290-3" style=""   data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="950" data-delay="762"
                      data-ease="easeOutQuint"                data-offset-x="428" data-offset-y="436" data-origin="tl"   >
                      TEMPLATE
                   </div>
-                  <div  class="ms-layer  msp-cn-290-2" style=""   data-effect="t(true,n,-150,n,n,70,n,n,n,n,n,n,n,n,n)" data-duration="1500"  
+                  <div  class="ms-layer  msp-cn-290-2" style=""   data-effect="t(true,n,-150,n,n,70,n,n,n,n,n,n,n,n,n)" data-duration="1500"
                      data-ease="easeInOutQuart"                data-offset-x="428" data-offset-y="352" data-origin="tl"   >
                      FULLSCREEN
                   </div>
-                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/btn-red.png')}}" alt="" style=""  
-                     data-effect="t(true,n,n,n,n,n,n,n,1.5,1.5,n,n,n,n,n)" data-duration="1500" data-delay="500" data-ease="easeInOutQuart"        data-type="image"  
+                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}"
+                     data-src="{{asset ('wp-content/uploads/2014/04/btn-red.png')}}" alt="" style=""
+                     data-effect="t(true,n,n,n,n,n,n,n,1.5,1.5,n,n,n,n,n)" data-duration="1500" data-delay="500" data-ease="easeInOutQuart"        data-type="image"
                      data-offset-x="760" data-offset-y="381" data-origin="tl"  />
                </div>
                <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
+                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title=""
                      data-src="{{asset ('wp-content/uploads/2014/04/5744683415_f3c781a3f8_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
                      data-ease="easeOutExpo"                data-offset-x="0" data-offset-y="309" data-origin="tl"   >
                      CONSEQUAT VEL FEUGIAT
                   </div>
-                  <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+                  <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
                      data-ease="easeOutExpo"                data-offset-x="203" data-offset-y="254" data-origin="tl"   >
                      VULPUTATE VELIT
                   </div>
                </div>
                <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
-                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
+                  <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title=""
                      data-src="{{asset ('wp-content/uploads/2014/04/5787202365_5748348264_o1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-8" style=""   data-effect="t(true,-250,n,n,n,n,n,n,n,n,-25,n,n,n,n)" data-duration="1112" data-delay="375" 
+                  <div  class="ms-layer  msp-cn-290-8" style=""   data-effect="t(true,-250,n,n,n,n,n,n,n,n,-25,n,n,n,n)" data-duration="1112" data-delay="375"
                      data-ease="easeOutQuint"                data-offset-x="481" data-offset-y="434" data-origin="tl"   >
                      BLANDIT PERAESENT
                   </div>
-                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" 
-                     data-src="{{asset ('wp-content/uploads/2014/04/btn-blue.png')}}" alt="" style=""  
-                     data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1112" data-delay="212" data-ease="easeOutQuint"        data-type="image"  
+                  <img  class="ms-layer" src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}"
+                     data-src="{{asset ('wp-content/uploads/2014/04/btn-blue.png')}}" alt="" style=""
+                     data-effect="t(true,n,150,n,n,n,n,n,n,n,n,n,n,n,n)" data-duration="1112" data-delay="212" data-ease="easeOutQuint"        data-type="image"
                      data-offset-x="482" data-offset-y="472" data-origin="tl"  />
                   <div  class="ms-layer  msp-cn-290-10" style=""   data-effect="t(true,150,n,n,n,n,n,n,n,n,n,n,n,n,n)"  data-delay="237" data-ease="easeOutQuint"
                      data-offset-x="477" data-offset-y="375" data-origin="tl"   >
@@ -61,10 +61,10 @@
          </div>
          <script>
             ( window.MSReady = window.MSReady || [] ).push( function( $ ) {
-            
+
             	"use strict";
             	var masterslider_0c1c = new MasterSlider();
-            
+
             	masterslider_0c1c.control('arrows'     ,{ autohide:true, overVideo:true  });
             	masterslider_0c1c.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:'bottom', space:5 , margin:10  });
             	masterslider_0c1c.setup("MS651fe95640c1c", {
@@ -108,7 +108,7 @@
             		parallaxMode    : 'swipe',
             		view            : "scale"
             	});
-            
+
             				MSScrollParallax.setup( masterslider_0c1c, 30, 50, true );
             	window.masterslider_instances = window.masterslider_instances || [];
             	window.masterslider_instances.push( masterslider_0c1c );

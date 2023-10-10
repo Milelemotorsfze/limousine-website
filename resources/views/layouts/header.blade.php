@@ -1,8 +1,4 @@
-<style>
-    .sf-with-ul {
-        padding-bottom: 20px;
-    }
-</style>
+
 <header class="limoking-header-wrapper header-style-5-wrapper limoking-header-no-top-bar" style="background-color: black">
     <!-- top navigation -->
     <div id="limoking-header-substitute" style="height: 0px;"></div>

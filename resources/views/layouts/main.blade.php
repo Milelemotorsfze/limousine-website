@@ -29,6 +29,7 @@
          background: none !important;
          padding: 0 !important;
          }
+
       </style>
       <link rel='stylesheet' id='wp-block-library-css' href="{{asset ('wp-includes/css/dist/block-library/style.min9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <style id='classic-theme-styles-inline-css' type='text/css'>
@@ -82,6 +83,23 @@
 			height:40px!important;
 			width:40px!important;
 		}
+        @media only screen and (max-width: 1100px) {
+            .margin-width {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+        }
+        @media only screen and (min-width: 1100px) {
+            .margin-width {
+                margin-top: 110px;
+                margin-bottom: 25px;
+            }
+        }
+        @media only screen and (min-width: 1100px) {
+            .slider-margin-width {
+                margin-top: 109px;
+            }
+        }
 	  </style>
    </head>
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
