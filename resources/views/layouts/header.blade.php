@@ -1,5 +1,5 @@
 
-<header class="limoking-header-wrapper header-style-5-wrapper limoking-header-no-top-bar" style="background-color: black">
+<header class="limoking-header-wrapper header-style-5-wrapper limoking-header-no-top-bar" >
     <!-- top navigation -->
     <div id="limoking-header-substitute" style="height: 0px;"></div>
     <div class="limoking-header-inner header-inner-header-style-5" style="">

@@ -6,7 +6,7 @@
             <div class="clear"></div>
             <div class="textwidget">
                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta.</p>
-               <p><img src="../../demo.goodlayers.com/limoking/wp-content/uploads/2015/11/logo.png" style="width: 170px;" alt="" /></p>
+               <p><img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="" /></p>
             </div>
          </div>
       </div>
@@ -64,7 +64,7 @@
    <div class="copyright-wrapper">
       <div class="copyright-container container">
          <div class="copyright-left">
-            Copyright 2016 GoodLayers, All Right Reserved				
+            Copyright 2016 GoodLayers, All Right Reserved
          </div>
          <div class="copyright-right">
             <a href="http://facebook.com/goodlayers"><i class="limoking-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="http://twitter.com/goodlayers"><i class="limoking-icon fa fa-twitter" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="limoking-icon fa fa-dribbble" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="limoking-icon fa fa-google-plus" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> <a href="#"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>

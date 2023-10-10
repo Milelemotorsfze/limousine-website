@@ -67,7 +67,7 @@
     border-radius:10px;
    }
 </style>
-<section id="content-section-1 slider-margin-width" >
+<section id="content-section-1" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/fleet-bg-yellow.jpg'); padding-top: 205px; padding-bottom: 410px; " >
       <div class="container">
          <div class="limoking-title-item"  >
