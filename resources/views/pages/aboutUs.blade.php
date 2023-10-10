@@ -1,5 +1,5 @@
 @extends('layouts.main')
-@section('content')  
+@section('content')
 <section id="content-section-1" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/title-big-bg-yellow.jpg'); padding-top: 230px; padding-bottom: 70px; " >
       <div class="container">
@@ -27,7 +27,7 @@
    <div class="clear"></div>
 </section>
 <section id="content-section-3">
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1" 
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
    style="background-image: url('../wp-content/uploads/2015/11/skill-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >
@@ -70,7 +70,7 @@
    <div class="clear"></div>
 </section>
 <section id="content-section-3">
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1" 
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
    style="background-image: url('../wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >
@@ -113,7 +113,7 @@
    <div class="clear"></div>
 </section>
 <section id="content-section-3">
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1" 
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
    style="background-image: url('../wp-content/uploads/2015/11/service-title-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >

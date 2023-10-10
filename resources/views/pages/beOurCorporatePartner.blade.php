@@ -2,25 +2,42 @@
 @section('content')
     <link rel='stylesheet'  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous">
     <style>
+       input[type=text] {
+            background-color: #FFFFFF;
+            border: solid 1px #dee2e6;
 
+        }
+       a {
+           text-decoration: none;
+           color: black;
+       }
     </style>
     <br>
-        <div class="container mt-5 mb-5">
+        <div class="container margin-width" >
             <div class="row  justify-content-center align-items-center" id="locateus">
                 <div class="col-lg-6 col-md-12 col-sm-12" style="padding: 60px 40px 90px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
-                    <form id="contactForm">
+                    @if (Session::get('error') )
+                        <div class="alert alert-danger" role="alert">  {{ Session::get('error') }}
+                        </div>
+                    @endif
+                    @if (Session::get('success') )
+                        <div class="alert alert-success" role="alert">  {{ Session::get('success') }}
+                        </div>
+                    @endif
+                    <form id="form-create" method="POST" action="{{ route('corporate-partners.store')}}" enctype="multipart/form-data">
+                        @csrf
                         <div class="row" style="margin-bottom: 2%;">
                             <h4>Corporate Details</h4>
                         </div>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
                                 <div class="form-group">
-                                    <input type="text" name="company_name" class="form-control form-control-lg" placeholder="Company Name *" required="" value="">
+                                    <input type="text" name="company_name"  class="form-control form-control-lg" placeholder="Company Name *" value="">
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-2 col-sx-3 mb-3">
+                            <div class="col-lg-3 col-md-3 col-sm-3 mb-3">
                                 <div class="form-group">
-                                    <select name="countryCode" class="form-control form-control-lg" placeholder="Country Code *" required="">
+                                    <select name="country_code" class="form-control form-control-lg" placeholder="Country Code *" >
                                         <option value="376">+376</option>
                                         <option value="971">+971</option>
                                         <option value="93">+93</option>
@@ -272,38 +289,97 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-lg-10 col-md-10 col-sx-9 mb-3">
+                            <div class="col-lg-9 col-md-9 col-sm-9 mb-3">
                                 <div class="form-group">
-                                    <input type="text" name="number" class="form-control form-control-lg" placeholder="Mobile Number *" maxlength="10" required="" value="">
+                                    <input type="text" name="mobile" class="form-control form-control-lg" placeholder="Mobile Number *"
+                                           maxlength="10" value="{{old('mobile')}}">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
                                 <div class="form-group">
-                                    <input type="text" name="email" class="form-control form-control-lg" placeholder="Email (user login) *" required=""
-                                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" value="">
-                                </div>
-                            </div>
-                            <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
-                                <div class="form-group">
-                                    <div class="password-container">
-                                        <input type="password" name="password" class="form-control form-control-lg" placeholder="Password *" required="" id="password" value="">
-
-                                    </div>
+                                    <input type="text" name="email" class="form-control form-control-lg" placeholder="Email *"
+                                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" value="{{ old('email') }}">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
                                 <label for="email">Trade License (optional)</label>
                                 <div class="form-group">
-                                    <input type="file" name="document" class="form-control form-control-lg">
+                                    <input type="file" name="file" id="file" class="form-control form-control-lg">
                                 </div>
                             </div>
 {{--                            <div class="col-lg-12 col-md-12 col-sm-12"><span style="color: red;"></span></div>--}}
                             <div class="col-lg-12 col-md-12 col-sm-12">
-                                <button type="submit" class="btn background-color text-white btn-lg" style="width: 100%;">Send</button>
+                                <button type="submit" id="form-submit" class="btn background-color text-white btn-lg" style="width: 100%;">Send</button>
                             </div>
                         </div>
                     </form>
+                    <div class="alert alert-success mt-2 alert-dismissible show" id="form-success-div"  hidden role="alert">
+                        <span id="form-output"> </span>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
                 </div>
             </div>
         </div>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js" ></script>
+
+    <script>
+        jQuery.validator.setDefaults({
+            errorClass: "text-danger",
+            errorElement: "p",
+            errorPlacement: function ( error, element ) {
+                error.addClass( "text-danger" );
+                error.insertAfter( element );
+            }
+        });
+        jQuery("#form-create").validate({
+            rules: {
+                company_name: {
+                    required: true,
+                    maxlength:255
+                },
+                email: {
+                    required: true,
+                    maxlength:255,
+                    email:true
+                },
+                mobile: {
+                    required: true,
+                    maxlength:20,
+                    minlength:5,
+                    number: true
+                },
+                file: {
+                    extension: "pdf|png|jpg|jpeg|svg"
+                },
+            },
+            messages: {
+                file: {
+                    extension: "File type not allowed.Please refer file type here..(eg: pdf,png,jpg,jpeg,svg..)"
+                }
+            },
+        })
+        // jQuery("#form-submit").click(function(e) {
+        //     e.preventDefault();
+        //     if( jQuery("#form-create").valid()) {
+        //
+        //         var form = jQuery("#form-create");
+        //         var url = form.attr('action');
+        //         jQuery.ajax({
+        //             type: "POST",
+        //             url: url,
+        //             contentType: false,
+        //             cache: false,
+        //             processData:false,
+        //             data: form.serialize(),
+        //             success: function(data) {
+        //                 jQuery('#form-success-div').attr('hidden', false);
+        //                 jQuery('#form-output').text("Request send successfully");
+        //                 jQuery("#form-create").load(" #form-create");
+        //             },
+        //         });
+        //     }
+        //
+        // });
+    </script>
 @endsection

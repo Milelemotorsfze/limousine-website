@@ -5,8 +5,10 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="pingback" href="xmlrpc.php" />
-      <title>lamo</title>
+{{--       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">--}}
+      <title>Milele Limousine</title>
       <meta name='robots' content='max-image-preview:large' />
+
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Feed" href="feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Comments Feed" href="comments/feed/index.html" />
@@ -27,6 +29,7 @@
          background: none !important;
          padding: 0 !important;
          }
+
       </style>
       <link rel='stylesheet' id='wp-block-library-css' href="{{asset ('wp-includes/css/dist/block-library/style.min9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <style id='classic-theme-styles-inline-css' type='text/css'>
@@ -80,14 +83,31 @@
 			height:40px!important;
 			width:40px!important;
 		}
+        @media only screen and (max-width: 1100px) {
+            .margin-width {
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+        }
+        @media only screen and (min-width: 1100px) {
+            .margin-width {
+                margin-top: 110px;
+                margin-bottom: 25px;
+            }
+        }
+        @media only screen and (min-width: 1100px) {
+            .slider-margin-width {
+                margin-top: 109px;
+            }
+        }
 	  </style>
    </head>
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
       <div class="body-wrapper  float-menu" data-home="http://localhost/rentacar/" >
 	  	@include('layouts.header')
-			<div class="content-wrapper">
+			<div class="content-wrapper" >
 				<div class="limoking-content">
-					<div class="with-sidebar-wrapper">
+					<div class="with-sidebar-wrapper" >
 						@yield('content')
 					</div>
 				</div>
@@ -99,7 +119,7 @@
       <script type='text/javascript' id='contact-form-7-js-extra'>
          var wpcf7 = {"api":{"root":"http:\/\/localhost\/rentacar\/wp-json\/","namespace":"contact-form-7\/v1"}};
       </script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+{{--      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>--}}
       <script type='text/javascript' src="{{asset ('wp-content/plugins/contact-form-7/includes/js/indexf658.js?ver=5.8.1')}}" id='contact-form-7-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/superfish/js/superfish5152.js?ver=1.0')}}" id='superfish-js'></script>
       <script type='text/javascript' src="{{asset ('wp-includes/js/hoverIntent.min3e5a.js?ver=1.10.2')}}" id='hoverIntent-js'></script>

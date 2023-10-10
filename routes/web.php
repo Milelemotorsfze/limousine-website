@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\CorporatePartnerController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Controller;
@@ -30,6 +31,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('contacts', ContactController::class)->only('index');
+    Route::resource('corporate-partners', CorporatePartnerController::class)->only('index');
+
     Route::resource('be-our-rls-driver-or-investor', BeOurRSLDriverOrInvestorController::class)->only('index');
 });
 
@@ -50,7 +53,9 @@ Route::controller(Controller::class)->group(function(){
     Route::get('/our-service', 'ourService')->name('our-service');
     Route::get('/contact-us', 'contactUs')->name('contact-us');
     Route::get('/be-our-driver-or-investor', 'beOurDriverOrInvestor')->name('be-our-driver-or-investor');
-    Route::get('/be-our-corporate-partner', 'beOurCorporatePartner')->name('be-our-corporate-partner');
+    Route::get('/be-our-corporate-partners', 'beOurCorporatePartner')->name('be-our-corporate-partners');
 });
 Route::resource('contacts', ContactController::class)->only('store');
+Route::resource('corporate-partners', CorporatePartnerController::class)->only('store');
+
 Route::resource('be-our-rls-driver-or-investor', BeOurRSLDriverOrInvestorController::class)->only('store');

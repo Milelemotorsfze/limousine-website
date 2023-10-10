@@ -1,5 +1,5 @@
-@extends('layouts.main') 
-@section('content') 
+@extends('layouts.main')
+@section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
    /* Style the car container with a rounded border */
@@ -63,11 +63,11 @@
    }
    .car-border
    {
-    border:1px ridge #c69955; 
+    border:1px ridge #c69955;
     border-radius:10px;
    }
 </style>
-<section id="content-section-1" >
+<section id="content-section-1 slider-margin-width" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/fleet-bg-yellow.jpg'); padding-top: 205px; padding-bottom: 410px; " >
       <div class="container">
          <div class="limoking-title-item"  >

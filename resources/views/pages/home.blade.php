@@ -102,7 +102,7 @@
                <!-- <div  class="ms-slide" data-delay="3" data-fill-mode="fill"   >
                   <img src="{{asset ('wp-content/plugins/masterslider/public/assets/css/blank.gif')}}" alt="" title="" 
                      data-src="{{asset ('wp-content/uploads/2014/04/8470271681_35226b225c_k1.jpg')}}" />
-                  <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"  
+                  <div  class="ms-layer  msp-cn-290-1" style=""   data-effect="t(true,n,n,500,-10,n,n,n,n,n,n,n,n,n,n)" data-duration="2000"
                      data-ease="easeOutBack"                data-offset-x="150" data-offset-y="429" data-origin="tl"   >
                      FULL SCREEN BACKGROUND SUPPORT
                   </div>
@@ -158,10 +158,10 @@ data-src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" class="Mobile"
          </div>
          <script>
             ( window.MSReady = window.MSReady || [] ).push( function( $ ) {
-            
+
             	"use strict";
             	var masterslider_0c1c = new MasterSlider();
-            
+
             	masterslider_0c1c.control('arrows'     ,{ autohide:true, overVideo:true  });
             	masterslider_0c1c.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:'bottom', space:5 , margin:10  });
             	masterslider_0c1c.setup("MS651fe95640c1c", {
@@ -205,7 +205,7 @@ data-src="{{asset('uploads/mobile-slider/TESLA - Slider1.jpg')}}" class="Mobile"
             		parallaxMode    : 'swipe',
             		view            : "scale"
             	});
-            
+
             				MSScrollParallax.setup( masterslider_0c1c, 30, 50, true );
             	window.masterslider_instances = window.masterslider_instances || [];
             	window.masterslider_instances.push( masterslider_0c1c );
