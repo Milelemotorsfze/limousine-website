@@ -26,7 +26,7 @@
                                  <div class="left-info">
                                     <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">5+1</h5>
+                                    <h5 class="card-pb">4+1</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">
@@ -59,7 +59,7 @@
                                  <div class="left-info">
                                  <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">5+1</h5>
+                                    <h5 class="card-pb">6+1</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">
@@ -92,7 +92,7 @@
                                  <div class="left-info">
                                     <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">5+1</h5>
+                                    <h5 class="card-pb">4+1</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">

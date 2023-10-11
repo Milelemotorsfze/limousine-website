@@ -124,7 +124,10 @@
          height: 200px!important;
       }
    }
-   
+   .column-service-title
+   {
+      color:#c69955;
+   }
 </style>
 <section id="content-section-1" >
    <div class="limoking-full-size-wrapper gdlr-show-all no-skin"  style="padding-bottom: 0px;  background-color: #ffffff; "  >
@@ -399,13 +402,13 @@
             <div class="limoking-item limoking-about-us-item limoking-with-divider" >
                <div class="about-us-title-wrapper">
                   <h3 class="about-us-title">We promise, you will have  the best experience</h3>
-                  <div class="about-us-title-divider"></div>
+                  <div class="about-us-title-divider" style="border-color:#c69955;"></div>
                </div>
                <div class="about-us-content-wrapper">
                   <div class="about-us-content limoking-skin-content">
                      <p>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
                   </div>
-                  <a class="about-us-read-more limoking-button large" href="#" >Book Now</a>
+                  <a class="about-us-read-more limoking-button large" href="#" style="background-color:#c69955;">Book Now</a>
                </div>
                <div class="clear"></div>
             </div>
@@ -421,9 +424,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-1.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/airport.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Night Parties</h3>
+                     <h3 class="column-service-title">Airport Transport</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
                      </div>
@@ -434,9 +437,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-2.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/khalifa.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Weddings</h3>
+                     <h3 class="column-service-title">City Tour</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
                      </div>
@@ -447,9 +450,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-3.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/clock.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Casinos</h3>
+                     <h3 class="column-service-title">Hourly Hire</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan. We are the most</p>
                      </div>
@@ -461,9 +464,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-4.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/corporate.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Birthdays</h3>
+                     <h3 class="column-service-title">Corporates</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
                      </div>
@@ -474,9 +477,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-5.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/event.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Proms</h3>
+                     <h3 class="column-service-title">Events</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
                      </div>
@@ -487,9 +490,9 @@
          <div class="four columns" >
             <div class="limoking-ux column-service-ux">
                <div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-                  <div class="column-service-image" ><img src="{{asset ('wp-content/uploads/2015/11/service-icon-6.png')}}" alt="" width="41" height="46" /></div>
+                  <div class="column-service-image" ><img src="{{asset ('service/enterprise.png')}}" alt="" width="41" height="46" /></div>
                   <div class="column-service-content-wrapper">
-                     <h3 class="column-service-title">Airport Transfers</h3>
+                     <h3 class="column-service-title">Enterprise</h3>
                      <div class="column-service-content limoking-skin-content">
                         <p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
                      </div>
