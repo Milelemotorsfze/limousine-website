@@ -5,8 +5,8 @@
             <h3 class="limoking-widget-title">About Us</h3>
             <div class="clear"></div>
             <div class="textwidget">
-               <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta.</p>
-               <p><img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="" /></p>
+               <p style="margin-bottom: 1px">Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+             <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="" />
             </div>
          </div>
       </div>
@@ -14,34 +14,23 @@
          <div id="text-9" class="widget widget_text limoking-item limoking-widget">
             <h3 class="limoking-widget-title">Contact Info</h3>
             <div class="clear"></div>
-            <div class="textwidget">Address: 184 Main Collins Street West Victoria 8007
+            <div class="textwidget">
                <span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-               <i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> +1800-222-3333
+               <i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> +971-333-3333
                <span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
                <i class="limoking-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; " ></i> (1)-212-333-4343
                <span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-               <i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> book@limokingtheme.com
+               <i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> info@milelelamous.com
             </div>
          </div>
       </div>
       <div class="footer-column three columns" id="footer-widget-3" >
          <div id="recent-posts-5" class="widget widget_recent_entries limoking-item limoking-widget">
-            <h3 class="limoking-widget-title">Recent Posts</h3>
+            <h3 class="limoking-widget-title">Location</h3>
             <div class="clear"></div>
-            <ul>
-               <li>
-                  <a href="2023/10/05/hello-world/index.html">Hello world!</a>
-               </li>
-               <li>
-                  <a href="2014/03/21/sem-porta-mollis-parturient/index.html">Sem Porta Mollis Parturi</a>
-               </li>
-               <li>
-                  <a href="2014/03/21/nullam-lorem-mattis-purus/index.html">Nullam Lorem Mattis Purus</a>
-               </li>
-               <li>
-                  <a href="2014/03/21/nibh-sem-sit-ullamcorper/index.html">Nibh Sem Sit Ullamcorper</a>
-               </li>
-            </ul>
+
+             <span class="limoking-space" >Showroom 93 , Al Aweer Market ,</span>
+                <p>Ras Al Khor , United Arab Emirates</p>
          </div>
       </div>
       <div class="footer-column three columns" id="footer-widget-4" >
@@ -52,9 +41,9 @@
                <div class="recent-port-widget-thumbnail"><a href="portfolio/night-party/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_77075656-150x150.jpg" alt="" width="150" height="150" /></a></div>
                <div class="recent-port-widget-thumbnail"><a href="portfolio/business-taxi-service/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_105826964-150x150.jpg" alt="" width="150" height="150" /></a></div>
                <div class="recent-port-widget-thumbnail"><a href="portfolio/airport-transfers/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_183797051-150x150.jpg" alt="" width="150" height="150" /></a></div>
-               <div class="recent-port-widget-thumbnail"><a href="portfolio/wedding-day/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_71630290-150x150.jpg" alt="" width="150" height="150" /></a></div>
-               <div class="recent-port-widget-thumbnail"><a href="portfolio/video-inside-this-post/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_258034826-150x150.jpg" alt="" width="150" height="150" /></a></div>
-               <div class="recent-port-widget-thumbnail"><a href="portfolio/city-tour/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_142784983-150x150.jpg" alt="" width="150" height="150" /></a></div>
+{{--               <div class="recent-port-widget-thumbnail"><a href="portfolio/wedding-day/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_71630290-150x150.jpg" alt="" width="150" height="150" /></a></div>--}}
+{{--               <div class="recent-port-widget-thumbnail"><a href="portfolio/video-inside-this-post/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_258034826-150x150.jpg" alt="" width="150" height="150" /></a></div>--}}
+{{--               <div class="recent-port-widget-thumbnail"><a href="portfolio/city-tour/index.html" ><img src="wp-content/uploads/2014/03/shutterstock_142784983-150x150.jpg" alt="" width="150" height="150" /></a></div>--}}
                <div class="clear"></div>
             </div>
          </div>

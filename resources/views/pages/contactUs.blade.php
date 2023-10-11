@@ -122,9 +122,10 @@
                                 <h3 class="limoking-widget-title">Contact Information</h3>
                                 <div class="clear"></div>
                                 <div class="textwidget">
-                                    <p>184 Main Collins Street West Victoria 8007 Australia</p>
-                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> 1800-222-222</p>
-                                    <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> contact@versatilewptheme.com</p>
+                                    <p>Showroom 93, Al Aweer Market,</p>
+                                    <p>Ras Al Khor, United Arab Emirates</p>
+                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> 971-333-3333</p>
+                                    <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@milelelamous.com</p>
                                     <p><i class="limoking-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Everyday 9:00-17:00</p>
                                 </div>
                             </div>

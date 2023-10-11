@@ -307,10 +307,10 @@
 						<div class="form-group">
 						<select name="vehicle" class="form-select form-select-lg" placeholder="Vehicle" style=" background-color: #FFFFFF;border: solid 1px #dee2e6;" >
                             <option value="">Select vehicle</option>
-                            <option value="LEXUS ES 300">LEXUS ES 300</option>
+                            <option value="LEXUS ES 300" @if(request()->vehicle ) {{request()->vehicle == 'LEXUS' ? 'selected' : ""}}  @endif>LEXUS ES 300</option>
 {{--                            <option value="2">VOLKSWAGEN TERAMONT</option>--}}
-                            <option value="TESLA MODEL Y">TESLA MODEL Y </option>
-                            <option value="GMC YUKON XL">GMC YUKON XL</option>
+                            <option value="TESLA MODEL Y" @if(request()->vehicle ) {{request()->vehicle == 'TESLA' ? 'selected' : ""}}  @endif >TESLA MODEL Y </option>
+                            <option value="GMC YUKON XL"  @if(request()->vehicle ) {{request()->vehicle == 'GMC' ? 'selected' : ""}}  @endif>GMC YUKON XL</option>
 {{--                            <option value="5">MERCEDES V-CLASS</option>--}}
 {{--                            <option value="6">CHEVROLET SUBURBAN</option>--}}
 {{--                            <option value="7">CADILLAC ESCALADE ESV</option>--}}

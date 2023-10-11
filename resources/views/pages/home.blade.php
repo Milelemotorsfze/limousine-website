@@ -4,7 +4,7 @@
 <style>
    .car-container {
    border: 1px solid #ccc;
-   border-radius: 10px; 
+   border-radius: 10px;
    padding: 20px;
    margin-top: 20px;
    }
@@ -37,25 +37,25 @@
    .buttons {
    margin-top: 5px;
    display: flex;
-   justify-content: center; 
+   justify-content: center;
    }
    .book-button,
    .partner-button {
    display: inline-block;
    padding: 5px 10px;
-   background-color: #007bff; 
+   background-color: #007bff;
    color: #fff;
    text-decoration: none;
    margin-right: 5px;
-   border-radius: 5px; 
+   border-radius: 5px;
    }
    .book-button:hover,
    .partner-button:hover {
-   background-color: #0056b3; 
+   background-color: #0056b3;
    }
    .car-border
    {
-   border:1px ridge #c69955; 
+   border:1px ridge #c69955;
    border-radius:10px;
    }
    .portfolio-item-filter span, .car-item-filter span {
@@ -74,7 +74,7 @@
    .msp-cn-290-4
    {
       top:350px!important;
-      left: 0px!important;  
+      left: 0px!important;
    }
    .ms-slide .ms-slide-layers, .ms-overlay-layers .ms-slide-layers, .ms-fixed-layers
    {
@@ -99,7 +99,7 @@
       .msp-cn-290-5, .msp-cn-290-4 {
          font-size: 25px!important;
       }
-      .ms-view 
+      .ms-view
       {
          height: 200px!important;
       }
@@ -119,7 +119,7 @@
       .msp-cn-290-5, .msp-cn-290-4 {
          font-size: 25px!important;
       }
-      .ms-view 
+      .ms-view
       {
          height: 200px!important;
       }
@@ -135,49 +135,49 @@
          <div id="P_MS651fe95640c1c" class="master-slider-parent ms-parent-id-1" style="" >
             <div id="MS651fe95640c1c" class="master-slider ms-skin-default " >
                <div class="ms-slide" data-delay="3" data-fill-mode="fill" >
-                  <img src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" alt="" title="" 
+                  <img src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" alt="" title=""
                      data-src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" style="max-width:100%; " class="Desktop"/>
-                  <img   src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
+                  <img   src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
-                  <img src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
+                  <img src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
-                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
                      data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
                      EXPERIENCE
                   </div>
-                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
                      data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
                      LUXURY
                   </div>
                </div>
                <div  class="ms-slide " data-delay="3" data-fill-mode="fill"   >
-                  <img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" alt="" title="" 
+                  <img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" alt="" title=""
                      data-src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" style="max-width:100%; " class="Desktop"/>
-                  <img   src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
+                  <img   src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
-                  <img src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
+                  <img src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
-                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
                      data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
                      RIDE LIKE
                   </div>
-                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
                      data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
                      ROYALTY
                   </div>
                </div>
                <div  class="ms-slide " data-delay="3" data-fill-mode="fill">
-                  <img src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" alt="" title="" 
+                  <img src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" alt="" title=""
                      data-src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" style="max-width:100%; "  class="Desktop"/>
-                  <img   src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
+                  <img   src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
-                  <img src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
+                  <img src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
-                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+                     <div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
                      data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
-                     ARRIVE IN 
+                     ARRIVE IN
                   </div>
-                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+                  <div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
                      data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
                      STYLE
                   </div>
@@ -191,13 +191,13 @@
    <div class="clear"></div>
 </section>
 <section id="content-section-2" style="width:100%;">
-                           <img src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" alt="" title="" 
+                           <img src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" alt="" title=""
                      data-src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
-                  <img   src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" 
+                  <img   src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
-                  <img src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" 
+                  <img src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}"
                      data-src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
-   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Desktop"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Desktop"  id="limoking-parallax-wrapper-1" data-bgspeed="0"
       style="background-image: url('{{asset ('uploads/Sliders/Website - Banner.jpg')}}'); padding-top: 72px; padding-bottom: 567px;" >
       <div class="container">
          <div class="limoking-title-item"  >
@@ -225,7 +225,7 @@
          <div class="clear"></div>
       </div>
    </div> -->
-   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Ipad"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Ipad"  id="limoking-parallax-wrapper-1" data-bgspeed="0"
       style="background-image: url('{{asset ('uploads/mobile-slider/Website - Banner.jpg')}}'); padding-top: 72px; padding-bottom: 567px; max-width:100%; object-fit: cover;" >
       <div class="container">
          <div class="limoking-title-item"  >
@@ -253,7 +253,7 @@
          <div class="clear"></div>
       </div>
    </div> -->
-   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Mobile"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   <!-- <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin Mobile"  id="limoking-parallax-wrapper-1" data-bgspeed="0"
       style="background-image: url('{{asset ('uploads/mobile-slider/Website - Banner.jpg')}}'); padding-top: 72px; padding-bottom: 567px; max-width:100%; object-fit: cover;  " >
       <div class="container">
          <div class="limoking-title-item"  >
@@ -408,7 +408,7 @@
                   <div class="about-us-content limoking-skin-content">
                      <p>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
                   </div>
-                  <a class="about-us-read-more limoking-button large" href="#" style="background-color:#c69955;">Book Now</a>
+                  <a class="about-us-read-more limoking-button large" href="{{ route('be-our-corporate-partners') }}" style="background-color:#c69955;">Be Corporate Partner</a>
                </div>
                <div class="clear"></div>
             </div>
@@ -507,10 +507,10 @@
 </section>
 <script>
             ( window.MSReady = window.MSReady || [] ).push( function( $ ) {
-            
+
             	"use strict";
             	var masterslider_0c1c = new MasterSlider();
-            
+
             	masterslider_0c1c.control('arrows'     ,{ autohide:true, overVideo:true  });
             	masterslider_0c1c.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:'bottom', space:5 , margin:10  });
             	masterslider_0c1c.setup("MS651fe95640c1c", {
@@ -554,7 +554,7 @@
             		parallaxMode    : 'swipe',
             		view            : "scale"
             	});
-            
+
             				MSScrollParallax.setup( masterslider_0c1c, 30, 50, true );
             	window.masterslider_instances = window.masterslider_instances || [];
             	window.masterslider_instances.push( masterslider_0c1c );
