@@ -36,7 +36,7 @@
                                  </div>
                               </div>
                               <div class="buttons">
-                                 <a href="#" class="book-button background-color">Book a Car</a>
+                                 <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
                                  <a href="#" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
@@ -69,7 +69,7 @@
                                  </div>
                               </div>
                               <div class="buttons">
-                                 <a href="#" class="book-button background-color">Book a Car</a>
+                                 <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
                                  <a href="#" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
@@ -102,7 +102,7 @@
                                  </div>
                               </div>
                               <div class="buttons">
-                                 <a href="#" class="book-button background-color">Book a Car</a>
+                                 <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
                                  <a href="#" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
