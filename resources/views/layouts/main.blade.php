@@ -5,7 +5,7 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="pingback" href="xmlrpc.php" />
-{{--       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">--}}
+       <link rel="shortcut icon" href="{{ asset('images/milelercicon.ico') }}">
       <title>Milele Limousine</title>
       <meta name='robots' content='max-image-preview:large' />
 
@@ -105,7 +105,7 @@
         }
         @media only screen and (min-width: 1100px) {
             .slider-margin-width {
-                margin-top: 109px;
+                margin-top: 90px;
             }
         }
 	  </style>

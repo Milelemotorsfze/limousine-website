@@ -37,7 +37,7 @@
                               </div>
                               <div class="buttons">
                                  <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
-                                 <a href="#" class="partner-button background-color">Become a Partner</a>
+                                 <a href="{{ route('be-our-driver-or-investor',['vehicle' => 'TESLA']) }}" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
                         </div>
@@ -70,7 +70,7 @@
                               </div>
                               <div class="buttons">
                                  <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
-                                 <a href="#" class="partner-button background-color">Become a Partner</a>
+                                 <a href="{{ route('be-our-driver-or-investor',['vehicle' => 'GMC']) }}" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
                         </div>
@@ -103,7 +103,7 @@
                               </div>
                               <div class="buttons">
                                  <!-- <a href="#" class="book-button background-color">Book a Car</a> -->
-                                 <a href="#" class="partner-button background-color">Become a Partner</a>
+                                 <a href="{{ route('be-our-driver-or-investor',['vehicle' => 'LEXUS']) }}" class="partner-button background-color">Become a Partner</a>
                               </div>
                            </div>
                         </div>
