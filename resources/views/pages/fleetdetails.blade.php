@@ -1,3 +1,9 @@
+<style>
+.image {
+  width:100%;
+  height:232px;
+}
+</style>
 <section id="content-section-2" >
    <div class="limoking-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 0px; " >
       <div class="container">
@@ -7,7 +13,7 @@
                <div class="four columns class3">
                   <div class="limoking-item limoking-car-item limoking-classic-car car-border">
                      <div class="limoking-ux limoking-classic-car-ux">
-                        <div class=car-thumbnail><img src="{{asset('uploads/PNG Cars/Tesla-Model-Y.png')}}" alt width=600 height=343>
+                        <div class=car-thumbnail><img class="image" src="{{asset('uploads/PNG Cars/Tesla-Model-Y.png')}}" alt="">
                         </div>
                         <div class=car-classic-content>
                            <center>
@@ -41,7 +47,7 @@
                <div class="four columns class4">
                   <div class="limoking-item limoking-car-item limoking-classic-car car-border">
                      <div class="limoking-ux limoking-classic-car-ux">
-                        <div class=car-thumbnail><img src="{{asset('uploads/PNG Cars/GMC-Yukon.png')}}" alt width=600 height=343></div>
+                        <div class=car-thumbnail><img class="image" src="{{asset('uploads/PNG Cars/GMC-Yukon.png')}}" alt=""></div>
                         <div class=car-classic-content>
                             <center>
                               <h3 class="car-title">
@@ -74,7 +80,7 @@
                <div class="four columns class1">
                   <div class="limoking-item limoking-car-item limoking-classic-car car-border">
                      <div class="limoking-ux limoking-classic-car-ux">
-                        <div class=car-thumbnail><img src="{{asset('uploads/PNG Cars/LEXUS-ES300.png')}}" alt width=600 height=343></div>
+                        <div class=car-thumbnail><img class="image" src="{{asset('uploads/PNG Cars/LEXUS-ES300.png')}}" alt=""></div>
                         <div class=car-classic-content>
                         <center>
                               <h3 class="car-title">
