@@ -12,6 +12,14 @@
       <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Feed" href="feed/index.html" />
       <link rel="alternate" type="application/rss+xml" title="lamo &raquo; Comments Feed" href="comments/feed/index.html" />
+      <link rel=stylesheet href='https://fonts.googleapis.com/css?family=Hind%3A300%2Cregular%2C500%2C600%2C700&amp;subset=latin-ext%2Cdevanagari%2Clatin&amp;ver=84e558e18080ec9bc7458b79924cc3ab' type=text/css media=all>
+				<link rel=stylesheet href='https://fonts.googleapis.com/css?family=Merriweather%3A300%2C300italic%2Cregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin-ext%2Clatin&amp;ver=84e558e18080ec9bc7458b79924cc3ab' type=text/css media=all>
+				<link rel=stylesheet href='https://fonts.googleapis.com/css?family=Mystery+Quest%3Aregular&amp;subset=latin-ext%2Clatin&amp;ver=84e558e18080ec9bc7458b79924cc3ab' type=text/css media=all>
+				<link rel=stylesheet href='https://fonts.googleapis.com/css?family=Montserrat%3Aregular%2C700&amp;subset=latin&amp;ver=84e558e18080ec9bc7458b79924cc3ab' type=text/css media=all>
+				<link rel=stylesheet href='css/style.css' type=text/css media=all>
+            <link rel=stylesheet href='plugins/dl-menu/component.css' type=text/css media=all>
+				<link rel=stylesheet href='plugins/fancybox/jquery.fancybox.css' type=text/css media=all>
+
       <script type="text/javascript">
          window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/rentacar\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
          !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
@@ -135,5 +143,53 @@
       <script type='text/javascript' src="{{asset ('wp-content/plugins/masterslider/public/assets/js/masterslider.min3ab2.js?ver=3.6.5')}}" id='masterslider-core-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/jquery.transit.min5152.js?ver=1.0')}}" id='jquery.transit-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/plugins/gdlr-car/gdlr-car-script5152.js?ver=1.0')}}" id='car-script-js'></script>
+      <script src='js/jquery/jquery.js'></script>
+      <script src='js/jquery/jquery-migrate.min.js'></script>
+      <script>
+					var ms_grabbing_curosr = 'plugins/masterslider/public/assets/css/common/grabbing.html',
+					    ms_grab_curosr = 'plugins/masterslider/public/assets/css/common/grab.html';
+				</script>
+            <script>
+					(function(url) {
+					    if (/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)) {
+					        return;
+					    }
+					    var addEvent = function(evt, handler) {
+					        if (window.addEventListener) {
+					            document.addEventListener(evt, handler, false);
+					        } else if (window.attachEvent) {
+					            document.attachEvent('on' + evt, handler);
+					        }
+					    };
+					    var removeEvent = function(evt, handler) {
+					        if (window.removeEventListener) {
+					            document.removeEventListener(evt, handler, false);
+					        } else if (window.detachEvent) {
+					            document.detachEvent('on' + evt, handler);
+					        }
+					    };
+					    var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+					    var logHuman = function() {
+					        if (window.wfLogHumanRan) {
+					            return;
+					        }
+					        window.wfLogHumanRan = true;
+					        var wfscr = document.createElement('script');
+					        wfscr.type = 'text/javascript';
+					        wfscr.async = true;
+					        wfscr.src = url + '&r=' + Math.random();
+					        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(wfscr);
+					        for (var i = 0; i < evts.length; i++) {
+					            removeEvent(evts[i], logHuman);
+					        }
+					    };
+					    for (var i = 0; i < evts.length; i++) {
+					        addEvent(evts[i], logHuman);
+					    }
+					});
+				</script>
+            				<script src='plugins/flexslider/jquery.flexslider.js'></script>
+                        <script src='js/plugins.js'></script>
+
    </body>
 </html>
