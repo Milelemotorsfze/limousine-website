@@ -46,12 +46,6 @@
             /*left: 240px !important;*/
         }
     }
-    @media only screen and (min-device-width: 900px){
-
-        .logo-image {
-            width: 160px !important;
-        }
-    }
     @media only screen and (min-device-width: 320px) {
         .dl-trigger {
             left: 250px !important;
