@@ -30,7 +30,7 @@
             font-size: 15px !important;
         }
     }
-    @media only screen and (min-device-width: 540px),only screen and(max-device-width: 600px) {
+    @media only screen and (min-device-width: 600px) {
         .font-xs{
             font-size: 15px !important;
         }
@@ -50,6 +50,18 @@
 
         .logo-image {
             width: 160px !important;
+        }
+    }
+    @media only screen and (min-device-width: 320px) {
+        .dl-trigger {
+            left: 250px !important;
+            /*left: 240px !important;*/
+        }
+    }
+    @media only screen and (min-device-width: 540px) {
+        .dl-trigger {
+            left: 400px !important;
+            /*left: 240px !important;*/
         }
     }
 
