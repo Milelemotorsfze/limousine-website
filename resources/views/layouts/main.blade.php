@@ -37,7 +37,6 @@
          background: none !important;
          padding: 0 !important;
          }
-
       </style>
       <link rel='stylesheet' id='wp-block-library-css' href="{{asset ('wp-includes/css/dist/block-library/style.min9b30.css?ver=6.3.1')}}" type='text/css' media='all' />
       <style id='classic-theme-styles-inline-css' type='text/css'>
