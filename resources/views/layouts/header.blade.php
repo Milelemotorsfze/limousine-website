@@ -80,14 +80,15 @@
                         <li id="menu-item-6242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242"><a href="{{route('aboutUs')}}">About Us</a></li>
                         <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('fleets')}}">Fleet</a></li>
                         <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{route('our-service')}}">Services</a></li>
-                        <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{ route('contact-us') }}">Contact Us</a></li>
                         <li id="menu-item-6248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248">
                             <a href="">Be a Partner</a>
                             <ul class="dl-submenu">
                                 <li id="menu-item-6249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6249"><a href="{{route('be-our-driver-or-investor')}}">Be Our Driver/Investor</a></li>
                                 <li id="menu-item-6250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partners')}}">Be Our Corporate Partner</a></li>
                             </ul>
-                        </li>
+                        </li>                        
+                        <li id="menu-item-6243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243"><a href="{{ route('contact-us') }}">Contact Us</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -106,7 +107,6 @@
                             <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6242menu-item menu-item-type-post_type menu-item-object-page menu-item-6242 limoking-normal-menu"><a href="{{route('aboutUs')}}">About Us</a></li>
                             <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('fleets')}}">Fleet</a></li>
                             <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('our-service')}}">Services</a></li>
-                            <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('contact-us')}}">Contact Us</a></li>
                             <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6248 limoking-normal-menu">
                                 <a href="#" style="padding-bottom: 18px" >Be a Partner</a>
                                 <ul class="sub-menu">
@@ -114,6 +114,8 @@
                                     <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6250"><a href="{{route('be-our-corporate-partners')}}">Be Our Corporate Partner</a></li>
                                 </ul>
                             </li>
+                            <li  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6243menu-item menu-item-type-post_type menu-item-object-page menu-item-6243 limoking-normal-menu"><a href="{{route('contact-us')}}">Contact Us</a></li>
+
                         </ul>
                     </nav>
                     <div class="limoking-navigation-gimmick" id="limoking-navigation-gimmick"></div>
