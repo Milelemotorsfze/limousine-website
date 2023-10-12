@@ -2,11 +2,14 @@
    <div class="footer-container container">
       <div class="footer-column three columns" id="footer-widget-1" >
          <div id="text-5" class="widget widget_text limoking-item limoking-widget">
+            <div class="textwidget">
+             <a  href="{{route('home')}}"><img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="" /></a>
+            </div>
+</br>
             <h3 class="limoking-widget-title">About Us</h3>
             <div class="clear"></div>
             <div class="textwidget">
                <p style="margin-bottom: 1px">Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-             <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="" />
             </div>
          </div>
       </div>

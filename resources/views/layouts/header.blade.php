@@ -70,7 +70,8 @@
             <!-- logo -->
             <div class="limoking-logo" style="margin: 0px">
                 <div class="limoking-logo-inner" >
-                     <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" class="logo-image" style="max-width: 250px !important;" alt="limousine-logo" >
+                     <a href="{{route('home')}}">
+                        <img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" class="logo-image" style="max-width: 250px !important;" alt="limousine-logo" ></a>
                 </div>
                 <div class="limoking-responsive-navigation dl-menuwrapper" id="limoking-responsive-navigation" >
                     <button class="dl-trigger" >Open Menu</button>
