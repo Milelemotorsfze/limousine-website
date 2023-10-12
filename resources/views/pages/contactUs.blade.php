@@ -197,6 +197,14 @@
         });
 
     </script>
+     <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function() 
+         {
+            var element = document.getElementById("contact-us");
+            element.classList.add("active-menu-color");
+         });
+      </script>
 @endsection
 
 

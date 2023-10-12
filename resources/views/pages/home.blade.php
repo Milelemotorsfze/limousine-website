@@ -746,4 +746,12 @@
 		window.masterslider_instances.push( masterslider_0c1c );
 	});
 </script>
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function() 
+         {
+            var element = document.getElementById("home");
+            element.classList.add("active-menu-color");
+         });
+      </script>
 @endsection

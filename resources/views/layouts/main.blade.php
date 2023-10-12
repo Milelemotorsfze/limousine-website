@@ -20,10 +20,10 @@
             <link rel=stylesheet href='plugins/dl-menu/component.css' type=text/css media=all>
 				<link rel=stylesheet href='plugins/fancybox/jquery.fancybox.css' type=text/css media=all>
 
-      <script type="text/javascript">
+      <!-- <script type="text/javascript">
          window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost\/rentacar\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.1"}};
          !function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-      </script>
+      </script> -->
       <style type="text/css">
          img.wp-smiley,
          img.emoji {
@@ -78,7 +78,8 @@
       <link rel='shortlink' href='index.html' />
       <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede1b2.json?url=http%3A%2F%2Flocalhost%2Frentacar%2F" />
       <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedd2ba?url=http%3A%2F%2Flocalhost%2Frentacar%2F&amp;format=xml" />
-      <script>var ms_grabbing_curosr="{{asset ('')}}"wp-content/plugins/masterslider/public/assets/css/common/grabbing.html',ms_grab_curosr="{{asset ('')}}"wp-content/plugins/masterslider/public/assets/css/common/grab.html';</script>
+      <script>var ms_grabbing_curosr="{{asset ('wp-content/plugins/masterslider/public/assets/css/common/grabbing.html')}}",
+      ms_grab_curosr="{{asset ('wp-content/plugins/masterslider/public/assets/css/common/grab.html')}}";</script>
       <meta name="generator" content="MasterSlider 3.6.5 - Responsive Touch Image Slider" />
       <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 	  <style>
@@ -144,11 +145,11 @@
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/fancybox/helpers/jquery.fancybox-thumbs5152.js?ver=1.0')}}" id='jquery-fancybox-thumbs-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/flexslider/jquery.flexslider5152.js?ver=1.0')}}" id='limoking-flexslider-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/jquery.isotope.min5152.js?ver=1.0')}}" id='isotope-js'></script>
-      <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/javascript/gdlr-script5152.js?ver=1.0')}}" id='limoking-script-js'></script>
+      <!-- <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/javascript/gdlr-script5152.js?ver=1.0')}}" id='limoking-script-js'></script> -->
       <script type='text/javascript' src="{{asset ('wp-content/plugins/masterslider/public/assets/js/masterslider.min3ab2.js?ver=3.6.5')}}" id='masterslider-core-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/themes/limoking/plugins/jquery.transit.min5152.js?ver=1.0')}}" id='jquery.transit-js'></script>
       <script type='text/javascript' src="{{asset ('wp-content/plugins/gdlr-car/gdlr-car-script5152.js?ver=1.0')}}" id='car-script-js'></script>
-      <script src='js/jquery/jquery.js'></script>
+      <!-- <script src='js/jquery/jquery.js'></script> -->
       <script src='js/jquery/jquery-migrate.min.js'></script>
       <script>
 					var ms_grabbing_curosr = 'plugins/masterslider/public/assets/css/common/grabbing.html',
