@@ -2,10 +2,18 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-   .limoking-item-title-center-icon-divider
-   {
-      width:66px!important;
-   }
+	.column-service-title
+	{
+		color:#c69955;
+	}
+	.image {
+		width:100%;
+		height:232px;
+	}
+	.limoking-item-title-center-icon-divider
+	{
+		width:66px!important;
+	}
 	.fleet-icon
 	{
 	margin-bottom:20px!important;
@@ -96,51 +104,141 @@
 	}
 	@media(max-width: 768px)
 	{
-	.Desktop,.Mobile{
-	display:none;
-	}
-	.Ipad{
-	display:block;
-	}
-	.ms-slide .ms-layer, .ms-fixed-layers .ms-layer, .ms-overlay-layers .ms-layer
-	{
-	position:inherit!important;
-	}
-	.msp-cn-290-5, .msp-cn-290-4 {
-	font-size: 25px!important;
-	}
-	.ms-view 
-	{
-	height: 200px!important;
-	}
+		.Desktop,.Mobile{
+		display:none;
+		}
+		.Ipad{
+		display:block;
+		}
+		.ms-slide .ms-layer, .ms-fixed-layers .ms-layer, .ms-overlay-layers .ms-layer
+		{
+		position:inherit!important;
+		}
+		.msp-cn-290-5, .msp-cn-290-4 {
+		font-size: 25px!important;
+		}
 	}
 	@media(max-width: 500px)
 	{
-	.Desktop,.Ipad{
-	display:none;
+		.Desktop,.Ipad {
+			display:none;
+		}
+		.Mobile
+		{
+			display:block;
+		}
+		.ms-slide .ms-layer, .ms-fixed-layers .ms-layer, .ms-overlay-layers .ms-layer
+		{
+		position:inherit!important;
+		}
+		.msp-cn-290-5, .msp-cn-290-4 {
+		font-size: 25px!important;
+		}
 	}
-	.Mobile{
-	display:block;
-	}
-	.ms-slide .ms-layer, .ms-fixed-layers .ms-layer, .ms-overlay-layers .ms-layer
+	@media (min-width:240px) and (max-width:241px) 
 	{
-	position:inherit!important;
+		.ms-view 
+		{
+			height: 133px!important;
+		}
 	}
-	.msp-cn-290-5, .msp-cn-290-4 {
-	font-size: 25px!important;
-	}
-	.ms-view 
+	@media (min-width:280px) and (max-width:281px) 
 	{
-	height: 200px!important;
+		.ms-view 
+		{
+			height: 155px!important;
+		}
 	}
-	}
-	.column-service-title
+	@media (min-width:320px) and (max-width:321px) 
 	{
-	color:#c69955;
+		.ms-view 
+		{
+			height: 175px!important;
+		}
 	}
-	.image {
-	width:100%;
-	height:232px;
+	@media (min-width:353px) and (max-width:354px) 
+	{
+		.ms-view 
+		{
+			height: 196px!important;
+		}
+	}
+	@media (min-width:360px) and (max-width:361px) 
+	{
+		.ms-view 
+		{
+			height: 200px!important;
+		}
+	}
+	@media (min-width:375px) and (max-width:376px) 
+	{
+		.ms-view 
+		{
+			height: 208px!important;
+		}
+	}
+	@media (min-width:384px) and (max-width:385px) 
+	{	
+		.ms-view 
+		{
+			height: 213px!important;
+		}
+	}
+	@media (min-width:390px) and (max-width:394px) 
+	{	
+		.ms-view 
+		{
+			height: 216px!important;
+		}
+	}
+	@media (min-width:411px) and (max-width:414px) 
+	{	
+		.ms-view 
+		{
+			height: 228px!important;
+		}
+	}
+	@media (min-width:480px) and (max-width:481px) 
+	{	
+		.ms-view 
+		{
+			height: 266px!important;
+		}
+	}
+	@media (min-width:540px) and (max-width:541px) 
+	{	
+		.ms-view 
+		{
+			height: 300px!important;
+		}
+	}
+	@media (min-width:600px) and (max-width:601px) 
+	{
+		.ms-view 
+		{
+			height: 333px!important;
+		}
+	}
+	@media (min-width:640px) and (max-width:641px) 
+	{
+		.ms-view 
+		{
+			height: 355px!important;
+		}
+	}
+	@media (min-width:712px) and (max-width:713px) 
+	{
+		.ms-view 
+		{
+			height: 395px!important;
+		}
+	}
+	@media (min-width:768px) and (max-width:769px) 
+	{
+		.ms-view 
+		{
+			height: 425px!important;
+		}
 	}
 </style>
 <section id="content-section-1" >
@@ -150,11 +248,11 @@
 				<div id="MS651fe95640c1c" class="master-slider ms-skin-default " >
 					<div class="ms-slide" data-delay="3" data-fill-mode="fill" >
 						<img src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" alt="" title="" 
-							data-src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" style="max-width:100%; " class="Desktop"/>
+							data-src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
 						<img   src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
 						<img src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
 						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
 							EXPERIENCE
@@ -166,11 +264,11 @@
 					</div>
 					<div  class="ms-slide " data-delay="3" data-fill-mode="fill"   >
 						<img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" alt="" title="" 
-							data-src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" style="max-width:100%; " class="Desktop"/>
+							data-src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
 						<img   src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
 						<img src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
 						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
 							RIDE LIKE
@@ -182,11 +280,11 @@
 					</div>
 					<div  class="ms-slide " data-delay="3" data-fill-mode="fill">
 						<img src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" alt="" title="" 
-							data-src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" style="max-width:100%; "  class="Desktop"/>
+							data-src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" style="max-width:100%; object-fit: cover;"  class="Desktop"/>
 						<img   src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Ipad" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
 						<img src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
-							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Mobile" style="max-width:100%; ">
+							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
 						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
 							ARRIVE IN 
@@ -204,6 +302,7 @@
 	</div>
 	<div class="clear"></div>
 </section>
+<!-- <div class="zoom"></div> -->
 <section id="content-section-2" style="width:100%;">
 	<img src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" alt="" title="" 
 		data-src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
@@ -213,6 +312,7 @@
 		data-src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
 	<div class="clear"></div>
 </section>
+
 <section id="content-section-3" >
 	<div class="limoking-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 0px; padding-bottom: 10px; " >
 		<div class="container">
@@ -275,7 +375,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'TESLA']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -305,7 +405,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'GMC']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -335,7 +435,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'LEXUS']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -365,7 +465,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'TESLA']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -396,7 +496,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'GMC']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -426,7 +526,7 @@
 												</div>
 											</div>
 											<div class="buttons">
-												<a href="#" class="partner-button background-color">Become a Partner</a>
+												<a href="{{ route('be-our-driver-or-investor',['vehicle' => 'LEXUS']) }}" class="partner-button background-color">Become a Partner</a>
 											</div>
 										</div>
 									</div>
@@ -456,7 +556,7 @@
 						<div class="about-us-content limoking-skin-content">
 							<p>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
 						</div>
-						<a class="about-us-read-more limoking-button large" href="#" style="background-color:#c69955;">Book Now</a>
+						<a class="about-us-read-more limoking-button large" href="{{route('be-our-corporate-partners')}}" style="background-color:#c69955;">Be Our Corporate Partner</a>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -469,12 +569,12 @@
 <section id="content-section-7" >
 	<div class="limoking-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 70px; padding-bottom: 20px; " >
 		<div class="container">
-			<div class="four columns" >
-				<div class="limoking-ux column-service-ux">
+			<div class="four columns sparkle u-hover--sparkle" >
+				<div class="limoking-ux column-service-ux ">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/airport.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/airport.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
-							<h3 class="column-service-title">Airport Transport</h3>
+							<h3 class="column-service-title ">Airport Transport</h3>
 							<div class="column-service-content limoking-skin-content">
 								<p>Limos King offers superb lim service in New York and Manhatatan.  We are the most</p>
 							</div>
@@ -485,7 +585,7 @@
 			<div class="four columns" >
 				<div class="limoking-ux column-service-ux">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/khalifa.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/khalifa.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">City Tour</h3>
 							<div class="column-service-content limoking-skin-content">
@@ -498,7 +598,7 @@
 			<div class="four columns" >
 				<div class="limoking-ux column-service-ux">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/clock.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/clock.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Hourly Hire</h3>
 							<div class="column-service-content limoking-skin-content">
@@ -512,7 +612,7 @@
 			<div class="four columns" >
 				<div class="limoking-ux column-service-ux">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/corporate.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/corporate.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Corporates</h3>
 							<div class="column-service-content limoking-skin-content">
@@ -525,7 +625,7 @@
 			<div class="four columns" >
 				<div class="limoking-ux column-service-ux">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/event.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/event.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Events</h3>
 							<div class="column-service-content limoking-skin-content">
@@ -538,7 +638,7 @@
 			<div class="four columns" >
 				<div class="limoking-ux column-service-ux">
 					<div class="limoking-item limoking-column-service-item limoking-medium"  style="margin-bottom: 40px;" >
-						<div class="column-service-image" ><img src="{{asset ('service/enterprise.png')}}" alt="" width="41" height="46" /></div>
+						<div class="column-service-image zoom" ><img src="{{asset ('service/enterprise.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Enterprise</h3>
 							<div class="column-service-content limoking-skin-content">

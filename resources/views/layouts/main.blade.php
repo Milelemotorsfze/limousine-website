@@ -108,6 +108,11 @@
                 margin-top: 90px;
             }
         }
+        
+   a:hover 
+   {
+      color: black;
+   }
 	  </style>
    </head>
    <body class="home page-template-default page page-id-5702 _masterslider _msp_version_3.6.5">
