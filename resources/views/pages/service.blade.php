@@ -26,7 +26,7 @@
 								<div class="limoking-item-title-center-icon-divider"></div>
 							</div>
 						</div>
-						<div class="limoking-item-title-caption limoking-skin-info">We are the most popular limousine service in New York.</div>
+						<div class="limoking-item-title-caption limoking-skin-info">We are the most popular limousine service in United Arab Emirates.</div>
 					</div>
 				</div>
 			</div>
