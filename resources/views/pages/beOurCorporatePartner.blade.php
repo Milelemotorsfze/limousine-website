@@ -28,7 +28,7 @@
                     <form id="form-create" method="POST" action="{{ route('corporate-partners.store')}}" enctype="multipart/form-data">
                         @csrf
                         <div class="row" style="margin-bottom: 2%;">
-                            <h4>Corporate Details</h4>
+                            <h4>Corporate Information</h4>
                         </div>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 mb-3">
