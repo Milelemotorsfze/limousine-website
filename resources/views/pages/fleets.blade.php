@@ -68,13 +68,14 @@
    }
 </style>
 <section id="content-section-1" >
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/fleet-bg-yellow.jpg'); padding-top: 205px; padding-bottom: 410px; " >
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   style="background-image: url('../wp-content/uploads/2015/11/fleet-bg-yellow.jpg'); padding-top: 193px; padding-bottom: 410px; " >
       <div class="container">
          <div class="limoking-title-item"  >
             <div class="limoking-item-title-wrapper limoking-item  limoking-center-icon-divider limoking-large ">
                <div class="limoking-item-title-container container">
                   <div class="limoking-item-title-head-inner">
-                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">Our Fleet / Modern 3 Columns</h3>
+                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">Our Fleet</h3>
                   </div>
                   <div class="limoking-nav-title">
                      <div class="limoking-item-title-content-icon-divider-wrapper" >
@@ -83,7 +84,7 @@
                         <div class="limoking-item-title-center-icon-divider"></div>
                      </div>
                   </div>
-                  <div class="limoking-item-title-caption limoking-skin-info">We offer you a super VIP experience in middle of New York.</div>
+                  <div class="limoking-item-title-caption limoking-skin-info">We offer you a super VIP experience in middle of United Arab Emirates.</div>
                </div>
             </div>
          </div>
