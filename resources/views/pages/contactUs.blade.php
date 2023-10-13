@@ -101,6 +101,7 @@
                                                     </div>
                                                 </div>
                                             </form>
+
                                         </div>
                                         </p>
                                     </div>
@@ -123,7 +124,7 @@
                                 <div class="textwidget">
                                     <p>Showroom 93, Al Aweer Market,</p>
                                     <p>Ras Al Khor, United Arab Emirates</p>
-                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +971-333-3333</p>
+                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> 971-333-3333</p>
                                     <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@milelelamous.com</p>
                                     <p><i class="limoking-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Everyday 9:00-17:00</p>
                                 </div>
@@ -131,14 +132,14 @@
                             <div id="text-8" class="widget widget_text limoking-item limoking-widget">
                                 <h3 class="limoking-widget-title">Social Media</h3>
                                 <div class="clear"></div>
-                                <div class="textwidget">
-                                    <a href=http://facebook.com/goodlayers><i class="limoking-icon fa fa-facebook" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                    <a href=http://twitter.com/goodlayers><i class="limoking-icon fa fa-twitter" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                    <a href=#><i class="limoking-icon fa fa-dribbble" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                    <a href=#><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                    <a href=#><i class="limoking-icon fa fa-google-plus" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                    <a href=#><i class="limoking-icon fa fa-instagram" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                                </div>
+                                <div class="textwidget"><a href="">
+                                    <i class="limoking-icon fa fa-facebook" style="vertical-align: middle; color: #444444; font-size: 28px; " >
+                            </i></a>
+                             <a href=""><i class="limoking-icon fa fa-twitter" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                             <a href=#><i class="limoking-icon fa fa-dribbble" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href=#><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href=#><i class="limoking-icon fa fa-google-plus" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href=#><i class="limoking-icon fa fa-instagram" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a></div>
                             </div>
                         </div>
                     </div>
@@ -196,6 +197,14 @@
         });
 
     </script>
+     <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function()
+         {
+            var element = document.getElementById("contact-us");
+            element.classList.add("active-menu-color");
+         });
+      </script>
 @endsection
 
 

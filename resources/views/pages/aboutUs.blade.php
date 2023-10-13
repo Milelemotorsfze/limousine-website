@@ -1,5 +1,21 @@
 @extends('layouts.main')
 @section('content')
+<style>
+   @media (min-width:240px) and (max-width:241px) 
+	{
+		.limoking-skill-item-wrapper .limoking-skill-item-title 
+      {
+         font-size: 35px;
+      }
+	} 
+   @media (min-width:280px) and (max-width:385px) 
+	{
+		.limoking-skill-item-wrapper .limoking-skill-item-title 
+      {
+         font-size: 43px;
+      }
+	} 
+</style>
 <section id="content-section-1" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/title-big-bg-yellow.jpg'); padding-top: 230px; padding-bottom: 70px; " >
       <div class="container">
@@ -7,7 +23,7 @@
             <div class="limoking-item-title-wrapper limoking-item  limoking-center-icon-divider limoking-large ">
                <div class="limoking-item-title-container container">
                   <div class="limoking-item-title-head-inner">
-                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">About Limo King</h3>
+                     <h3 class="limoking-item-title limoking-skin-title limoking-skin-border">About Milele Limousine</h3>
                   </div>
                   <div class="limoking-nav-title">
                      <div class="limoking-item-title-content-icon-divider-wrapper" >
@@ -16,7 +32,7 @@
                         <div class="limoking-item-title-center-icon-divider"></div>
                      </div>
                   </div>
-                  <div class="limoking-item-title-caption limoking-skin-info">We are the most popular limousine service in New York.</div>
+                  <div class="limoking-item-title-caption limoking-skin-info">We are the most popular limousine service in United Arab Emirates.</div>
                </div>
             </div>
          </div>
@@ -177,4 +193,12 @@
    </div>
    <div class="clear"></div>
 </section>
+<script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function() 
+         {
+            var element = document.getElementById("about-us");
+            element.classList.add("active-menu-color");
+         });
+      </script>
 @endsection
