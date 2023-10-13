@@ -19,7 +19,8 @@ use App\Http\Controllers\BeOurRSLDriverOrInvestorController;
 */
 
 Route::get('/', function () {
-    return view('pages.home');
+    // return view('pages.home');
+    return view('pages.comingsoon');
 });
 
 Route::get('/dashboard', function () {
