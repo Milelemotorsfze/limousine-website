@@ -15,7 +15,7 @@
             text-decoration: none;
             outline: none;
         }
-        
+
         a,
         a:active,
         a:focus {
@@ -32,7 +32,7 @@
             -webkit-transition-duration: .2s;
             -o-transition-duration: .2s;
         }
-        
+
         ul {
             margin: 0;
             padding: 0;
@@ -57,7 +57,7 @@ span, a, a:hover {
   line-height: 1;
   letter-spacing:0.3px;
   font-size: 34px;
-  font-weight: 700;  
+  font-weight: 700;
   text-align:center;
   text-transform:none;
   margin-bottom:30px;
@@ -70,7 +70,7 @@ span, a, a:hover {
   position: absolute;
   left: 0px;
   bottom: -10px;
-  right:0;  
+  right:0;
   margin:0 auto;
 }
 .section-head h4 span {
@@ -82,13 +82,13 @@ p.service_text{
   color:#cccccc !important;
   font-size:16px;
   line-height:28px;
-  text-align:center;    
+  text-align:center;
 }
 .section-head p, p.awesome_line{
   color:#818181;
   font-size:16px;
   line-height:28px;
-  text-align:center;  
+  text-align:center;
 }
 
 .extra-text {
@@ -150,7 +150,7 @@ p.service_text{
 .item .icon {
     font-size: 40px;
     margin-bottom:25px;
-    color: #c69955;   
+    color: #c69955;
     width: 90px;
     height: 90px;
     line-height: 96px;
@@ -248,17 +248,17 @@ p.service_text{
     top: -5px;
     right: 0;
     font-size: 10px;
-    font-weight:600;    
+    font-weight:600;
     color: #fff;
     background:rgba(0, 0, 0, 0.9);
     padding: 3px 7px;
     border-radius: 30px;
 }
-	.zoom:hover 
+	.zoom:hover
 	{
 	-ms-transform: scale(1.1); /* IE 9 */
 	-webkit-transform: scale(1.1); /* Safari 3-8 */
-	transform: scale(1.1); 
+	transform: scale(1.1);
 	background-color:#f9f4ec!important;
 	border-color:#c69955!important;
 	border-radius:5px!important;
@@ -285,7 +285,7 @@ p.service_text{
 	}
 	.car-container {
 	border: 1px solid #ccc;
-	border-radius: 10px; 
+	border-radius: 10px;
 	padding: 20px;
 	margin-top: 20px;
 	}
@@ -318,25 +318,25 @@ p.service_text{
 	.buttons {
 	margin-top: 5px;
 	display: flex;
-	justify-content: center; 
+	justify-content: center;
 	}
 	.book-button,
 	.partner-button {
 	display: inline-block;
 	padding: 5px 10px;
-	background-color: #007bff; 
+	background-color: #007bff;
 	color: #fff;
 	text-decoration: none;
 	margin-right: 5px;
-	border-radius: 5px; 
+	border-radius: 5px;
 	}
 	.book-button:hover,
 	.partner-button:hover {
-	background-color: #0056b3; 
+	background-color: #0056b3;
 	}
 	.car-border
 	{
-	border:1px ridge #c69955; 
+	border:1px ridge #c69955;
 	border-radius:10px;
 	padding-bottom:20px!important;
 	padding-left:20px!important;
@@ -357,7 +357,7 @@ p.service_text{
 	.msp-cn-290-4
 	{
 	top:350px!important;
-	left: 0px!important;  
+	left: 0px!important;
 	}
 	.ms-slide .ms-slide-layers, .ms-overlay-layers .ms-slide-layers, .ms-fixed-layers
 	{
@@ -400,112 +400,112 @@ p.service_text{
 		font-size: 25px!important;
 		}
 	}
-	@media (min-width:240px) and (max-width:241px) 
+	@media (min-width:240px) and (max-width:241px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 133px!important;
 		}
 	}
-	@media (min-width:280px) and (max-width:281px) 
+	@media (min-width:280px) and (max-width:281px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 155px!important;
 		}
 	}
-	@media (min-width:320px) and (max-width:321px) 
+	@media (min-width:320px) and (max-width:321px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 175px!important;
 		}
 	}
-	@media (min-width:353px) and (max-width:354px) 
+	@media (min-width:353px) and (max-width:354px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 196px!important;
 		}
 	}
-	@media (min-width:360px) and (max-width:361px) 
+	@media (min-width:360px) and (max-width:361px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 200px!important;
 		}
 	}
-	@media (min-width:375px) and (max-width:376px) 
+	@media (min-width:375px) and (max-width:376px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 208px!important;
 		}
 	}
-	@media (min-width:384px) and (max-width:385px) 
-	{	
-		.ms-view 
+	@media (min-width:384px) and (max-width:385px)
+	{
+		.ms-view
 		{
 			height: 213px!important;
 		}
 	}
-	@media (min-width:390px) and (max-width:394px) 
-	{	
-		.ms-view 
+	@media (min-width:390px) and (max-width:394px)
+	{
+		.ms-view
 		{
 			height: 216px!important;
 		}
 	}
-	@media (min-width:411px) and (max-width:414px) 
-	{	
-		.ms-view 
+	@media (min-width:411px) and (max-width:414px)
+	{
+		.ms-view
 		{
 			height: 228px!important;
 		}
 	}
-	@media (min-width:480px) and (max-width:481px) 
-	{	
-		.ms-view 
+	@media (min-width:480px) and (max-width:481px)
+	{
+		.ms-view
 		{
 			height: 266px!important;
 		}
 	}
-	@media (min-width:540px) and (max-width:541px) 
-	{	
-		.ms-view 
+	@media (min-width:540px) and (max-width:541px)
+	{
+		.ms-view
 		{
 			height: 300px!important;
 		}
 	}
-	@media (min-width:600px) and (max-width:601px) 
+	@media (min-width:600px) and (max-width:601px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 333px!important;
 		}
 	}
-	@media (min-width:640px) and (max-width:641px) 
+	@media (min-width:640px) and (max-width:641px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 355px!important;
 		}
 	}
-	@media (min-width:712px) and (max-width:713px) 
+	@media (min-width:712px) and (max-width:713px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 395px!important;
 		}
 	}
-	@media (min-width:768px) and (max-width:769px) 
+	@media (min-width:768px) and (max-width:769px)
 	{
-		.ms-view 
+		.ms-view
 		{
 			height: 425px!important;
 		}
 	}
-	@media (min-width:1025px) 
+	@media (min-width:1025px)
 	{
 		.six{
 			width: 49%!important;
@@ -548,49 +548,49 @@ p.service_text{
 			<div id="P_MS651fe95640c1c" class="master-slider-parent ms-parent-id-1" style="" >
 				<div id="MS651fe95640c1c" class="master-slider ms-skin-default " >
 					<div class="ms-slide" data-delay="3" data-fill-mode="fill" >
-						<img src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" alt="" title="" 
+						<img src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" alt="" title=""
 							data-src="{{asset ('uploads/Sliders/GMC - Slider.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
-						<img   src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
+						<img   src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
-						<img src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" 
+						<img src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/GMC - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
-						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
 							EXPERIENCE
 						</div>
-						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
 							data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
 							LUXURY
 						</div>
 					</div>
 					<div  class="ms-slide " data-delay="3" data-fill-mode="fill"   >
-						<img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" alt="" title="" 
+						<img id="lexusimage" src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" alt="" title=""
 							data-src="{{asset ('uploads/Sliders/LEXUS - Slider.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
-						<img   src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
+						<img   src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
-						<img src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" 
+						<img src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/LEXUS - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
-						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
 							RIDE LIKE
 						</div>
-						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
 							data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
 							ROYALTY
 						</div>
 					</div>
 					<div  class="ms-slide " data-delay="3" data-fill-mode="fill">
-						<img src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" alt="" title="" 
+						<img src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" alt="" title=""
 							data-src="{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}" style="max-width:100%; object-fit: cover;"  class="Desktop"/>
-						<img   src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
+						<img   src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
-						<img src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" 
+						<img src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}"
 							data-src="{{asset('uploads/mobile-slider/TESLA - Slider.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
-						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"  
+						<div  class="ms-layer  msp-cn-290-4" style=""   data-effect="t(true,0,-60,n,n,65,n,0,n,n,n,-15,n,n,n)" data-duration="2000"
 							data-ease="easeOutExpo" data-offset-x="203" data-offset-y="254" data-origin="tl"   >
-							ARRIVE IN 
+							ARRIVE IN
 						</div>
-						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437" 
+						<div  class="ms-layer  msp-cn-290-5" style=""   data-effect="t(true,n,-60,n,n,65,n,n,n,n,n,-15,n,n,n)" data-duration="2000" data-delay="437"
 							data-ease="easeOutExpo" data-offset-x="0" data-offset-y="309" data-origin="tl">
 							STYLE
 						</div>
@@ -605,11 +605,11 @@ p.service_text{
 </section>
 <!-- <div class="zoom"></div> -->
 <section id="content-section-2" style="width:100%;">
-	<img src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" alt="" title="" 
+	<img src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" alt="" title=""
 		data-src="{{asset ('uploads/Sliders/Website - Banner.jpg')}}" style="max-width:100%; object-fit: cover;" class="Desktop"/>
-	<img   src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" 
+	<img   src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}"
 		data-src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" class="Ipad" style="max-width:100%; object-fit: cover;">
-	<img src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" 
+	<img src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}"
 		data-src="{{asset('uploads/mobile-slider/Website - Banner.jpg')}}" class="Mobile" style="max-width:100%; object-fit: cover;">
 	<div class="clear"></div>
 </section>
@@ -881,27 +881,33 @@ p.service_text{
                         </div>
 						<div class="six column">
                             <div class="item">
-                                <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                                <span class="icon feature_box_col_four">
+                                     <img src="{{ asset('images/icons8-luxury-50.png') }}" alt="luxury-icon" style="margin-top: 16px" >
+                                </span>
                                 <h5>Luxury Experience</h5>
                                 <p> From the moment you step into our vehicles to the minute you reach your destination, prepare to be pampered.</p>
                             </div>
                         </div>
                         <div class="six column margin-class">
                             <div class="item">
-                                <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                                <span class="icon feature_box_col_three">
+                                     <img src="{{ asset('images/car.png') }}" alt="car-icon" style="margin-top: 16px">
+                                </span>
                                 <h5>Professional Chauffeurs</h5>
                                 <p>Our chauffeurs are more than drivers; they are your dedicated concierges. Knowledgeable, courteous, and dedicated to your needs, they ensure a seamless ride</p>
                             </div>
                         </div>
-						
+
                         <div class="six column">
                             <div class="item">
-                                <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                                <span class="icon feature_box_col_two">
+                                    <img src="{{ asset('images/car_fleet.png') }}" alt="fleet-icon" style="margin-top: 16px">
+                                </span>
                                 <h5>Fleet</h5>
                                 <p>Our exquisite fleet, featuring the GMC, Denali, Tesla, and Lexus ES300. Each vehicle is meticulously maintained for your ultimate satisfaction.</p>
                             </div>
                         </div>
-                        
+
                     </div>
 		</div>
 	</div>
@@ -912,13 +918,13 @@ p.service_text{
         <div class="limoking-master-slider-item limoking-slider-item limoking-item"  style="margin-bottom: 0px;"  >
             <div class="feat bg-gray pt-5 pb-5">
                 <div class="container">
-                  
+
                 </div>
             </div>
         </div>
     </div>
 </section> -->
-								
+
 <section id="content-section-8" >
 	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  id="limoking-parallax-wrapper-3" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 95px; padding-bottom: 50px; " >
 		<div class="container">
@@ -1032,10 +1038,10 @@ p.service_text{
 
 <script>
 	( window.MSReady = window.MSReady || [] ).push( function( $ ) {
-	
+
 		"use strict";
 		var masterslider_0c1c = new MasterSlider();
-	
+
 		masterslider_0c1c.control('arrows'     ,{ autohide:true, overVideo:true  });
 		masterslider_0c1c.control('bullets'    ,{ autohide:false, overVideo:true, dir:'h', align:'bottom', space:5 , margin:10  });
 		masterslider_0c1c.setup("MS651fe95640c1c", {
@@ -1079,7 +1085,7 @@ p.service_text{
 			parallaxMode    : 'swipe',
 			view            : "scale"
 		});
-	
+
 					MSScrollParallax.setup( masterslider_0c1c, 30, 50, true );
 		window.masterslider_instances = window.masterslider_instances || [];
 		window.masterslider_instances.push( masterslider_0c1c );
@@ -1087,7 +1093,7 @@ p.service_text{
 </script>
 <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
 <script type="text/javascript">
-         $(document).ready( function() 
+         $(document).ready( function()
          {
             var element = document.getElementById("home");
             element.classList.add("active-menu-color");
