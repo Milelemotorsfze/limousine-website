@@ -108,9 +108,9 @@
             <div class="limoking-logo-right-wrapper">
                 <div class="limoking-logo-right-text" style="padding-top: 0px;padding-bottom: 5px;">
                     <i class="fa fa-phone" style="color: #FFFFFF"  ></i>
-                    <span style="color: #ffffff;margin-right: 15px; font-size: 14px; line-height: 1.1;" class="font-xs">+971 3333333</span>
+                    <span style="color: #ffffff;margin-right: 15px; font-size: 14px; line-height: 1.1;" class="font-xs">+971 502015770</span>
                     <i class="fa fa-envelope" style="color: #FFFFFF"  ></i>
-                    <span style="color: #ffffff; font-size: 14px; line-height: 1.1;" class="font-xs">info@milelelamouse.com</span>
+                    <span style="color: #ffffff; font-size: 14px; line-height: 1.1;" class="font-xs">info@milelelimousine.com</span>
                 </div>
                 <div class="limoking-navigation-wrapper" style="margin-right: 0px;height: 40px;margin-top: 10px">
                     <nav class="limoking-navigation" id="limoking-main-navigation">

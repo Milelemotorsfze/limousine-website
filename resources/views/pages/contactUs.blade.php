@@ -24,6 +24,11 @@
             border: solid 1px #dee2e6 !important;
 
         }
+        @media only screen and (min-device-width: 600px),only screen and(max-device-width: 1000px) {
+            i.limoking-icon {
+                margin-right: 6px;
+            }
+        }
     </style>
     <div class="content-wrapper slider-margin-width">
         <div class="limoking-content">
@@ -113,33 +118,34 @@
                     </div>
                     <div class="limoking-sidebar limoking-right-sidebar four columns">
                         <div class="limoking-item-start-content sidebar-right-item">
-                            <div id="text-6" class="widget widget_text limoking-item limoking-widget">
-                                <h3 class="limoking-widget-title">Before Contacting Us</h3>
-                                <div class="clear"></div>
-                                <div class="textwidget">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Non equidem invideo, miror magis posuere velit aliquet.</div>
-                            </div>
-                            <div id=text-7 class="widget widget_text limoking-item limoking-widget">
+{{--                            <div id="text-6" class="widget widget_text limoking-item limoking-widget">--}}
+{{--                                <h3 class="limoking-widget-title">Before Contacting Us</h3>--}}
+{{--                                <div class="clear"></div>--}}
+{{--                                <div class="textwidget">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Non equidem invideo, miror magis posuere velit aliquet.</div>--}}
+{{--                            </div>--}}
+                            <div id="text-7" class="widget widget_text limoking-item limoking-widget">
                                 <h3 class="limoking-widget-title">Contact Information</h3>
                                 <div class="clear"></div>
                                 <div class="textwidget">
-                                    <p>Showroom 93, Al Aweer Market,</p>
-                                    <p>Ras Al Khor, United Arab Emirates</p>
-                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> 971-333-3333</p>
-                                    <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@milelelamous.com</p>
-                                    <p><i class="limoking-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Everyday 9:00-17:00</p>
+                                    <p> Ras Al Khor, Al Aweer, Auto market showroom No.93-Dubai</p>
+                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +971 502015770</p>
+                                    <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@milelelimousine.com</p>
+                                    <p><i class="limoking-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Monday to Saturday, 9am – 10pm</p>
                                 </div>
                             </div>
                             <div id="text-8" class="widget widget_text limoking-item limoking-widget">
                                 <h3 class="limoking-widget-title">Social Media</h3>
                                 <div class="clear"></div>
-                                <div class="textwidget"><a href="">
+                                <div class="textwidget"><a href="https://www.facebook.com/profile.php?id=61551254275210">
                                     <i class="limoking-icon fa fa-facebook" style="vertical-align: middle; color: #444444; font-size: 28px; " >
                             </i></a>
-                             <a href=""><i class="limoking-icon fa fa-twitter" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                             <a href=#><i class="limoking-icon fa fa-dribbble" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href=#><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href=#><i class="limoking-icon fa fa-google-plus" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href=#><i class="limoking-icon fa fa-instagram" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a></div>
+                             <a href="https://twitter.com/Milelelimousine"><i class="limoking-icon fa fa-twitter" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                             <a href="https://www.tiktok.com/@milelelimousine?lang=en"><i class="limoking-icon fa fa-tiktok" style="vertical-align: middle;margin-right: 0px; color: #444444; font-size: 28px; " ></i></a>
+                              <a href="https://pin.it/5JYiZkt"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href="https://www.youtube.com/@MileleLimousine"><i class="limoking-icon fa fa-youtube" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href="https://www.instagram.com/milelelimousine/"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
+                              <a href="https://www.linkedin.com/company/milelelimousine/"><i class="limoking-icon fa fa-linkedin" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -148,7 +154,7 @@
             </div>
 
         </div>
-        <div class=clear></div>
+        <div class="clear"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script type="text/javascript">
