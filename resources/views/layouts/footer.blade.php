@@ -1,55 +1,81 @@
+<style>
+    @media only screen and (min-device-width: 600px),only screen and(max-device-width: 1000px) {
+
+        .width-one{
+            width: 100%;
+        }
+        .width-two{
+            width: 100%;
+        }
+        .width-three{
+            width: 100%;
+        }
+        .width-four{
+            width: 100%;
+        }
+
+    }
+    @media only screen and (min-device-width: 1000px) {
+        .width-one{
+            width: 15%;
+        }
+        .width-two{
+            width: 45%;
+        }
+        .width-three{
+            width: 15%;
+        }
+        .width-four{
+            width: 25%;
+        }
+    }
+
+</style>
+
+
 <footer class="footer-wrapper" >
 	<div class="footer-container container">
-		<div class="footer-column three columns" id="footer-widget-1" >
+		<div class="footer-column width-one columns" id="footer-widget-1"  >
 			<div id="text-5" class="widget widget_text limoking-item limoking-widget">
 				<div class="textwidget">
-					<a  href="{{route('home')}}"><img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 170px;" alt="logo" /></a>
-				</div>
-				</br>
-				<h3 class="limoking-widget-title">About Us</h3>
-				<div class="clear"></div>
-				<div class="textwidget">
-					<p style="margin-bottom: 1px">Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+					<a  href="{{route('home')}}"><img src="{{asset('/uploads/Logo/Milele Limousine - Web 1.png')}}" style="width: 200px;" alt="logo" /></a>
 				</div>
 			</div>
 		</div>
-		<div class="footer-column three columns" id="footer-widget-2" >
+
+        <div class="footer-column width-two columns" id="footer-widget-4"  >
+            <div id="recent-posts-5" class="widget widget_recent_entries limoking-item limoking-widget">
+                <h3 class="limoking-widget-title">About us</h3>
+                <div class="clear"></div>
+                <span class="limoking-space" > Milele Limousine sets the gold standard in luxury chauffeur services, offering an exquisite fleet of vehicles that cater to every taste.
+                    From sleek and stylish sedans to spacious and commanding SUVs to ensure you arrive at your destination in style and comfort </span>
+
+            </div>
+        </div>
+        <div class="footer-column width-three columns" id="footer-widget-2" >
+            <div id="recent-posts-5" class="widget widget_recent_entries limoking-item limoking-widget">
+                <h3 class="limoking-widget-title">Location</h3>
+                <div class="clear"></div>
+                <span class="limoking-space" > Ras Al Khor, Al Aweer, Auto market showroom No.93-Dubai</span>
+                {{--				<p>Ras Al Khor , United Arab Emirates</p>--}}
+            </div>
+        </div>
+
+		<div class="footer-column width-four columns" id="footer-widget-3" >
 			<div id="text-9" class="widget widget_text limoking-item limoking-widget">
 				<h3 class="limoking-widget-title">Contact Info</h3>
 				<div class="clear"></div>
 				<div class="textwidget">
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> +971-333-3333
+					<i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> +971 502015770
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; " ></i> (1)-212-333-4343
+					<i class="limoking-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; " ></i> Monday to Saturday, 9am – 10pm
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> info@milelelamous.com
+					<i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> info@milelelimousine.com
 				</div>
 			</div>
 		</div>
-		<div class="footer-column three columns" id="footer-widget-3" >
-			<div id="recent-posts-5" class="widget widget_recent_entries limoking-item limoking-widget">
-				<h3 class="limoking-widget-title">Location</h3>
-				<div class="clear"></div>
-				<span class="limoking-space" >Showroom 93 , Al Aweer Market ,</span>
-				<p>Ras Al Khor , United Arab Emirates</p>
-			</div>
-		</div>
-		<div class="footer-column three columns" id="footer-widget-4" >
-			<div id="gdlr-recent-portfolio2-widget-6" class="widget widget_gdlr-recent-portfolio2-widget limoking-item limoking-widget">
-				<h3 class="limoking-widget-title">Recent Works</h3>
-				<div class="clear"></div>
-				<div class="limoking-recent-port2-widget">
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_77075656-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_105826964-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_183797051-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_71630290-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_258034826-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="recent-port-widget-thumbnail"><a href="" ><img src="wp-content/uploads/2014/03/shutterstock_142784983-150x150.jpg" alt="" width="150" height="150" /></a></div>
-					<div class="clear"></div>
-				</div>
-			</div>
-		</div>
+
 		<div class="clear"></div>
 	</div>
 	<div class="copyright-wrapper">
@@ -58,14 +84,17 @@
 				Copyright 2023 Milele Limousine
 			</div>
 			<div class="copyright-right">
-				<a href=""><i class="limoking-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> 
-				<a href=""><i class="limoking-icon fa fa-twitter" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> 
-				<a href="#"><i class="limoking-icon fa fa-dribbble" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> 
-				<a href="#"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
-				<a href="#"><i class="limoking-icon fa fa-google-plus" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
-				<a href="#"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://www.facebook.com/profile.php?id=61551254275210"><i class="limoking-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://twitter.com/Milelelimousine"><i class="limoking-icon fa fa-twitter" style="vertical-align: middle;margin-right:0px;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://www.tiktok.com/@milelelimousine?lang=en"><i class="limoking-icon fa fa-tiktok" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://pin.it/5JYiZkt"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://www.youtube.com/@MileleLimousine"><i class="limoking-icon fa fa-youtube" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<a href="https://www.instagram.com/milelelimousine/"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+                <a href="https://www.linkedin.com/company/milelelimousine/"><i class="limoking-icon fa fa-linkedin" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+
 			</div>
-			<div class="clear"></div>
+
+            <div class="clear"></div>
 		</div>
 	</div>
 </footer>
