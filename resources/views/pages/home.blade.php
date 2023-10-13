@@ -874,7 +874,9 @@ p.service_text{
                         </div>
                         <div class="six column margin-class">
                             <div class="item">
-                                <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                                <span class="icon feature_box_col_one">
+                                    <img src="{{ asset('images/icons8-comfort-50.png') }}" alt="luxury-icon" style="margin-top: 16px" >
+                                </span>
                                 <h5>Style and Comfort</h5>
                                 <p>We offer impeccable pick and drop services tailored to your schedule, making sure you arrive in style and comfort.</p>
                             </div>
