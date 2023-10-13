@@ -2,11 +2,6 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-	.margin-class
-	{
-		/* margin-left:10px!important;
-		margin-right:10px!important; */
-	}
 	  h1,
         h2,
         h3,
@@ -186,7 +181,7 @@ p.service_text{
     color:#c69955
 }
 .item p{
-    font-size:15px;
+    font-size:17px;
     line-height:26px;
 }
 .item h6 {
@@ -510,9 +505,17 @@ p.service_text{
 			height: 425px!important;
 		}
 	}
-	/* @media (min-width:1024px) 
+	@media (min-width:1025px) 
 	{
-		.service-margin
+		.six{
+			width: 49%!important;
+		}
+		.margin-class
+	{
+		margin-right:22px!important;
+		/* margin-right:10px!important; */
+	}
+		/* .service-margin
 	{
 		margin-right: 20px!important;
 		margin-left: 20px!important;
@@ -522,8 +525,8 @@ p.service_text{
 		padding-left:5px!important;
 		padding-top:5px!important;
 		padding-bottom:5px!important;
-	}
 	} */
+	}
 	.service-margin
 	{
 		margin-right: 20px!important;
@@ -872,31 +875,33 @@ p.service_text{
                         <div class="six column margin-class">
                             <div class="item">
                                 <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
-                                <h6>Style and Comfort</h6>
+                                <h5>Style and Comfort</h5>
                                 <p>We offer impeccable pick and drop services tailored to your schedule, making sure you arrive in style and comfort.</p>
                             </div>
                         </div>
-                        <div class="six column margin-class">
+						<div class="six column">
                             <div class="item">
-                                <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
-                                <h6>Fleet</h6>
-                                <p>Our exquisite fleet, featuring the GMC, Denali, Tesla, and Lexus ES300. Each vehicle is meticulously maintained for your ultimate satisfaction.</p>
+                                <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                                <h5>Luxury Experience</h5>
+                                <p> From the moment you step into our vehicles to the minute you reach your destination, prepare to be pampered.</p>
                             </div>
                         </div>
                         <div class="six column margin-class">
                             <div class="item">
                                 <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
-                                <h6>Professional Chauffeurs</h6>
+                                <h5>Professional Chauffeurs</h5>
                                 <p>Our chauffeurs are more than drivers; they are your dedicated concierges. Knowledgeable, courteous, and dedicated to your needs, they ensure a seamless ride</p>
                             </div>
                         </div>
-                        <div class="six column margin-class">
+						
+                        <div class="six column">
                             <div class="item">
-                                <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-                                <h6>Luxury Experience</h6>
-                                <p> From the moment you step into our vehicles to the minute you reach your destination, prepare to be pampered.</p>
+                                <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                                <h5>Fleet</h5>
+                                <p>Our exquisite fleet, featuring the GMC, Denali, Tesla, and Lexus ES300. Each vehicle is meticulously maintained for your ultimate satisfaction.</p>
                             </div>
                         </div>
+                        
                     </div>
 		</div>
 	</div>
