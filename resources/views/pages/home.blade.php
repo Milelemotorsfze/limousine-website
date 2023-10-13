@@ -2,6 +2,263 @@
 @section('content')
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+	.margin-class
+	{
+		/* margin-left:10px!important;
+		margin-right:10px!important; */
+	}
+	  h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {}
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            outline: none;
+        }
+        
+        a,
+        a:active,
+        a:focus {
+            color: #333;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+span, a, a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+.section-head {
+  margin-bottom: 60px;
+}
+.section-head h4 {
+  position: relative;
+  padding:0;
+  color:#c69955;
+  line-height: 1;
+  letter-spacing:0.3px;
+  font-size: 34px;
+  font-weight: 700;  
+  text-align:center;
+  text-transform:none;
+  margin-bottom:30px;
+}
+.section-head h4:before {
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: #c69955;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  right:0;  
+  margin:0 auto;
+}
+.section-head h4 span {
+  font-weight: 700;
+  padding-bottom: 5px;
+  color:#2f2f2f
+}
+p.service_text{
+  color:#cccccc !important;
+  font-size:16px;
+  line-height:28px;
+  text-align:center;    
+}
+.section-head p, p.awesome_line{
+  color:#818181;
+  font-size:16px;
+  line-height:28px;
+  text-align:center;  
+}
+
+.extra-text {
+    font-size:34px;
+    font-weight: 700;
+    color:#2f2f2f;
+    margin-bottom: 25px;
+    position:relative;
+    text-transform: none;
+}
+.extra-text::before {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #c69955;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    right: 0;
+    margin: 0 auto;
+}
+.extra-text span {
+    font-weight: 700;
+    color:#c69955;
+}
+.item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    -webkit-box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
+    box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    border:5px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+.item:hover{
+    background:#c69955;
+    box-shadow:0 8px 20px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+.item:hover .item, .item:hover span.icon{
+    background:#fff;
+    border-radius:10px;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+.item:hover h6, .item:hover p{
+    color:#fff;
+    -webkit-transition: all .5s ease 0;
+    transition: all .5s ease 0;
+    transition: all 0.5s ease 0s;
+}
+.item .icon {
+    font-size: 40px;
+    margin-bottom:25px;
+    color: #c69955;   
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+}
+.item .feature_box_col_one{
+    background:rgba(247, 198, 5, 0.20);
+    color:#c69955
+}
+.item .feature_box_col_two{
+    background:rgba(255, 77, 28, 0.15);
+    color:#c69955
+}
+.item .feature_box_col_three{
+    background:rgba(0, 147, 38, 0.15);
+    color:#c69955
+}
+.item .feature_box_col_four{
+    background:rgba(0, 108, 255, 0.15);
+    color:#c69955
+}
+.item .feature_box_col_five{
+    background:rgba(146, 39, 255, 0.15);
+    color:#c69955
+}
+.item .feature_box_col_six{
+    background:rgba(23, 39, 246, 0.15);
+    color:#c69955
+}
+.item p{
+    font-size:15px;
+    line-height:26px;
+}
+.item h6 {
+    margin-bottom:20px;
+    color:#2f2f2f;
+}
+.mission p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.mission i {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #c69955;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 25px;
+}
+.mission .small-text {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #666;
+}
+.skills {
+    padding-top:0px;
+}
+.skills .prog-item {
+    margin-bottom: 25px;
+}
+.skills .prog-item:last-child {
+    margin-bottom: 0;
+}
+.skills .prog-item p {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.skills .prog-item .skills-progress {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius:20px;
+    position: relative;
+}
+.skills .prog-item .skills-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #c69955;
+    width: 10%;
+    border-radius: 10px;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+.skills .prog-item .skills-progress span:after {
+    content: attr(data-value);
+    position: absolute;
+    top: -5px;
+    right: 0;
+    font-size: 10px;
+    font-weight:600;    
+    color: #fff;
+    background:rgba(0, 0, 0, 0.9);
+    padding: 3px 7px;
+    border-radius: 30px;
+}
 	.zoom:hover 
 	{
 	-ms-transform: scale(1.1); /* IE 9 */
@@ -277,6 +534,9 @@
 		padding-left:5px!important;
 		padding-top:5px!important;
 		padding-bottom:5px!important;
+	}
+	.limoking-stunning-item .stunning-item-button {
+		font-size: 26px!important;
 	}
 </style>
 <section id="content-section-1" >
@@ -581,6 +841,79 @@
 	</div>
 	<div class="clear"></div>
 </section>
+<section id="content-section-5" >
+                                    <div class="limoking-color-wrapper  gdlr-show-all limoking-skin-dark-skin" style="background-color: #c69955; padding-top: 0px; padding-bottom: 0px; " >
+                                        <div class="container">
+                                            <div class="limoking-stunning-item-ux limoking-ux">
+                                                <div class="limoking-item limoking-stunning-item" >
+												<h2 class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >What about pricing?</h2>
+
+                                                    <div class="stunning-item-content"  style="padding-left:50px;">
+                                                        <!-- <h2 class="stunning-item-title">What about pricing?</h2> -->
+                                                        <div class="stunning-item-caption limoking-skin-content" style="font-size:15px;">Our charges are highly competitive aligning with market standards. We offer a variety of convenient payment options, including cash, credit cards, and online payments, to ensure a hassle-free payment experience for our valued customers.</div>
+                                                    </div>
+                                                    <!-- <a class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >Check Rates</a> -->
+                                                </div>
+                                            </div>
+                                            <div class="clear"></div>
+                                            <div class="clear"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </section>
+								<section id="content-section-7" >
+	<div class="limoking-color-wrapper  gdlr-show-all no-skin" style="background-color: #ffffff; padding-top: 70px; padding-bottom: 20px; " >
+		<div class="container">
+		<div class="row">
+                        <div class="section-head col-sm-12">
+                            <h4><span>Why Choose</span> Us?</h4>
+                            <!-- <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development. Because we know the digital world and we know that how to handle it. With working knowledge of online, SEO and social media.</p> -->
+                        </div>
+                        <div class="six column margin-class">
+                            <div class="item">
+                                <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
+                                <h6>Style and Comfort</h6>
+                                <p>We offer impeccable pick and drop services tailored to your schedule, making sure you arrive in style and comfort.</p>
+                            </div>
+                        </div>
+                        <div class="six column margin-class">
+                            <div class="item">
+                                <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
+                                <h6>Fleet</h6>
+                                <p>Our exquisite fleet, featuring the GMC, Denali, Tesla, and Lexus ES300. Each vehicle is meticulously maintained for your ultimate satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="six column margin-class">
+                            <div class="item">
+                                <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
+                                <h6>Professional Chauffeurs</h6>
+                                <p>Our chauffeurs are more than drivers; they are your dedicated concierges. Knowledgeable, courteous, and dedicated to your needs, they ensure a seamless ride</p>
+                            </div>
+                        </div>
+                        <div class="six column margin-class">
+                            <div class="item">
+                                <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
+                                <h6>Luxury Experience</h6>
+                                <p> From the moment you step into our vehicles to the minute you reach your destination, prepare to be pampered.</p>
+                            </div>
+                        </div>
+                    </div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</section>
+<!-- <section>
+    <div class="limoking-full-size-wrapper gdlr-show-all no-skin"  style="padding-bottom: 0px;  background-color: #ffffff; "  >
+        <div class="limoking-master-slider-item limoking-slider-item limoking-item"  style="margin-bottom: 0px;"  >
+            <div class="feat bg-gray pt-5 pb-5">
+                <div class="container">
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+								
 <section id="content-section-8" >
 	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  id="limoking-parallax-wrapper-3" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 95px; padding-bottom: 50px; " >
 		<div class="container">
@@ -592,7 +925,7 @@
 					</div>
 					<div class="about-us-content-wrapper">
 						<div class="about-us-content limoking-skin-content">
-							<p>Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum.</p>
+							<p>We strive to exceed our clients' expectations, ensuring their travel is not just a destination but a seamless and memorable journey.</p>
 						</div>
 						<a class="about-us-read-more limoking-button large" href="{{route('be-our-corporate-partners')}}" style="background-color:#c69955;">Be Our Corporate Partner</a>
 					</div>
@@ -691,6 +1024,7 @@
 	</div>
 	<div class="clear"></div>
 </section>
+
 <script>
 	( window.MSReady = window.MSReady || [] ).push( function( $ ) {
 	
