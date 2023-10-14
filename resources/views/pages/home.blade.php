@@ -666,13 +666,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -696,13 +696,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">6+1</h5>
+													<h5 class="card-pb">6</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -726,13 +726,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -756,13 +756,13 @@ p.service_text{
 												<div class="left-info">
 													<img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon">
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -787,13 +787,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">6+1</h5>
+													<h5 class="card-pb">6</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -817,13 +817,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -928,7 +928,9 @@ p.service_text{
 </section> -->
 
 <section id="content-section-8" >
-	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  id="limoking-parallax-wrapper-3" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 95px; padding-bottom: 50px; " >
+	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  
+	id="limoking-parallax-wrapper-3" data-bgspeed="0" 
+	style="background-image: url('{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}'); padding-top: 95px; padding-bottom: 50px; " >
 		<div class="container">
 			<div class="six columns" >
 				<div class="limoking-item limoking-about-us-item limoking-with-divider" >
@@ -960,7 +962,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title ">Airport Transport</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -973,7 +975,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">City Tour</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -986,7 +988,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Hourly Hire</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan. We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan. We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1000,7 +1002,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Corporates</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1013,7 +1015,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Events</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1026,7 +1028,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Enterprise</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>

@@ -26,13 +26,13 @@
                                  <div class="left-info">
                                     <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">4+1</h5>
+                                    <h5 class="card-pb">4</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">
                                     <img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon">
                                     <h6 class="card-pb">Baggage</h6>
-                                    <h5 class="card-pb">3</h5>
+                                    <h5 class="card-pb">2</h5>
                                  </div>
                               </div>
                               <div class="buttons">
@@ -59,13 +59,13 @@
                                  <div class="left-info">
                                  <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">6+1</h5>
+                                    <h5 class="card-pb">6</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">
                                     <img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon">
                                     <h6 class="card-pb">Baggage</h6>
-                                    <h5 class="card-pb">3</h5>
+                                    <h5 class="card-pb">4</h5>
                                  </div>
                               </div>
                               <div class="buttons">
@@ -92,13 +92,13 @@
                                  <div class="left-info">
                                     <img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
                                     <h6 class="card-pb">Passengers</h6>
-                                    <h5 class="card-pb">4+1</h5>
+                                    <h5 class="card-pb">4</h5>
                                  </div>
                                  <div class="vertical-line"></div>
                                  <div class="right-info">
                                     <img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon">
                                     <h6 class="card-pb">Baggage</h6>
-                                    <h5 class="card-pb">3</h5>
+                                    <h5 class="card-pb">2</h5>
                                  </div>
                               </div>
                               <div class="buttons">

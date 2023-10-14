@@ -29,7 +29,7 @@
 			<form id="be_driver_or_invester_form" action="{{route('be-our-rls-driver-or-investor.store')}}" method="POST" enctype="multipart/form-data">
 				@csrf
 				<div class="row" style="margin-bottom: 2%;">
-					<h4>Be Our RSL Driver/Investor</h4>
+					<h4>Be Our Milele Driver/Investor</h4>
 				</div>
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 mb-2">
