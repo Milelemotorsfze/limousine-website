@@ -67,7 +67,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="../wp-content/uploads/2015/11/about-car.jpg" alt="" width="546" height="321" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/GMC-Yukon.png')}}" alt="" /></div>
                </div>
             </div>
          </div>
@@ -125,7 +125,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="../wp-content/uploads/2015/11/about-car.jpg" alt="" width="546" height="321" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/Tesla-Model-Y.png')}}" alt="" /></div>
                </div>
             </div>
          </div>
@@ -155,7 +155,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="../wp-content/uploads/2015/11/about-car.jpg" alt="" width="546" height="321" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/LEXUS-ES300.png')}}" alt="" /></div>
                </div>
             </div>
          </div>
