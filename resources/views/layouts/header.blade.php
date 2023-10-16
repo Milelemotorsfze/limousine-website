@@ -107,9 +107,9 @@
             </div>
             <div class="limoking-logo-right-wrapper">
                 <div class="limoking-logo-right-text" style="padding-top: 0px;padding-bottom: 5px;">
-                    <i class="fa fa-phone" style="color: #FFFFFF"  ></i>
+                    <i class="fa fa-phone" style="color: #009688"  ></i>
                     <span style="color: #ffffff;margin-right: 15px; font-size: 14px; line-height: 1.1;" class="font-xs">+971 502015770</span>
-                    <i class="fa fa-envelope" style="color: #FFFFFF"  ></i>
+                    <i class="fa fa-envelope" style="color: #2196f3"  ></i>
                     <span style="color: #ffffff; font-size: 14px; line-height: 1.1;" class="font-xs">info@milelelimousine.com</span>
                 </div>
                 <div class="limoking-navigation-wrapper" style="margin-right: 0px;height: 40px;margin-top: 10px">
