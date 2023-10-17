@@ -986,7 +986,7 @@ p.service_text{
 					<div class="limoking-item limoking-column-service-item limoking-medium service-margin zoom" >
 						<div class="column-service-image " ><img src="{{asset ('service/clock.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
-							<h3 class="column-service-title">Hourly Hire</h3>
+							<h3 class="column-service-title">Weddings</h3>
 							<div class="column-service-content limoking-skin-content">
 								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan. We are the </p> -->
 							</div>

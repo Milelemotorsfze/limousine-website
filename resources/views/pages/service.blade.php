@@ -76,7 +76,7 @@
 							<div class="single-features-box">
 								<center>
 									<div class="icon"><img src="{{asset ('service/clock.png')}}"></div>
-									<h3>Hourly Hire</h3>
+									<h3>Weddings</h3>
 								</center>
 							</div>
 						</div>
