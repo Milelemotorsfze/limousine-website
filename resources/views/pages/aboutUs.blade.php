@@ -18,10 +18,15 @@
    .paragraph-style{
       font-size: 21px!important;
    }
- 
+   @media (min-width:240px) and (max-width:712px) {
+		.banner-image-padding-top {
+         padding-top: 222px!important;
+      }
+	}
 </style>
 <section id="content-section-1" >
-   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0" style="background-image: url('../wp-content/uploads/2015/11/title-big-bg-yellow.jpg'); padding-top: 230px; padding-bottom: 70px; " >
+   <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin banner-image-padding-top"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
+   style="background-image: url('{{asset ('Sliders-1600-600/Sliders - (1600x600) 6.jpg')}}'); padding-top: 360px; padding-bottom: 70px; " >
       <div class="container">
          <div class="limoking-title-item"  >
             <div class="limoking-item-title-wrapper limoking-item  limoking-center-icon-divider limoking-large ">
@@ -48,7 +53,7 @@
 </section>
 <section id="content-section-3">
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
-   style="background-image: url('../wp-content/uploads/2015/11/skill-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
+   style="background-image: url('{{asset ('Sliders-1600-200/Sliders - (1600x200) 5.jpg')}}'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >
             <div class="limoking-skill-item-wrapper limoking-skin-content limoking-item limoking-style-1" >
@@ -67,7 +72,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/GMC-Yukon.png')}}" alt="" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/about-us/GMC-Yukon.png')}}" alt="" /></div>
                </div>
             </div>
          </div>
@@ -93,7 +98,7 @@
 </section>
 <section id="content-section-3">
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
-   style="background-image: url('../wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
+   style="background-image: url('{{asset ('Sliders-1600-200/Sliders - (1600x200) 3.jpg')}}'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >
             <div class="limoking-skill-item-wrapper limoking-skin-content limoking-item limoking-style-1" >
@@ -125,7 +130,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/Tesla-Model-Y.png')}}" alt="" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/about-us/Tesla-Model-Y.png')}}" alt="" /></div>
                </div>
             </div>
          </div>
@@ -136,7 +141,7 @@
 </section>
 <section id="content-section-3">
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-2" data-bgspeed="0.1"
-   style="background-image: url('../wp-content/uploads/2015/11/service-title-bg.jpg'); padding-top: 40px; padding-bottom: 0px;" >
+   style="background-image: url('{{asset ('Sliders-1600-200/Sliders - (1600x200) 4.jpg')}}'); padding-top: 40px; padding-bottom: 0px;" >
       <div class="container">
          <div class="twelve columns" >
             <div class="limoking-skill-item-wrapper limoking-skin-content limoking-item limoking-style-1" >
@@ -155,7 +160,7 @@
          <div class="six columns" >
             <div class="limoking-image-frame-item limoking-item"  >
                <div class="limoking-frame limoking-link-type-none frame-type-none"  >
-                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/PNG Cars/LEXUS-ES300.png')}}" alt="" /></div>
+                  <div class="limoking-image-link-shortcode" ><img src="{{asset('uploads/about-us/LEXUS-ES300.png')}}" alt="" /></div>
                </div>
             </div>
          </div>

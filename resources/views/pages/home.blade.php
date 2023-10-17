@@ -845,19 +845,17 @@ p.service_text{
 	<div class="clear"></div>
 </section>
 <section id="content-section-5" >
-                                    <div class="limoking-color-wrapper  gdlr-show-all limoking-skin-dark-skin" style="background-color: #c69955; padding-top: 0px; padding-bottom: 0px; " >
-                                        <div class="container">
-                                            <div class="limoking-stunning-item-ux limoking-ux">
-                                                <div class="limoking-item limoking-stunning-item" >
-												<h2 class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >What about pricing?</h2>
-
-                                                    <div class="stunning-item-content"  style="padding-left:50px;">
-                                                        <!-- <h2 class="stunning-item-title">What about pricing?</h2> -->
-                                                        <div class="stunning-item-caption limoking-skin-content" style="font-size:15px;">Our charges are highly competitive aligning with market standards. We offer a variety of convenient payment options, including cash, credit cards, and online payments, to ensure a hassle-free payment experience for our valued customers.</div>
-                                                    </div>
-                                                    <!-- <a class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >Check Rates</a> -->
-                                                </div>
-                                            </div>
+    <div class="limoking-color-wrapper  gdlr-show-all limoking-skin-dark-skin"
+	style="background-image: url('{{asset('Sliders-1600-200/Sliders - (1600x200) 2.jpg')}}'); padding-top: 0px; padding-bottom: 0px; " >
+        <div class="container">
+            <div class="limoking-stunning-item-ux limoking-ux">
+                <div class="limoking-item limoking-stunning-item" >
+					<h2 class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >What about pricing?</h2>
+					<div class="stunning-item-content"  style="padding-left:50px;">
+                        <div class="stunning-item-caption limoking-skin-content" style="font-size:15px;">Our charges are highly competitive aligning with market standards. We offer a variety of convenient payment options, including cash, credit cards, and online payments, to ensure a hassle-free payment experience for our valued customers.</div>
+                        </div>
+                    </div>
+                </div>
                                             <div class="clear"></div>
                                             <div class="clear"></div>
                                         </div>
@@ -930,7 +928,7 @@ p.service_text{
 <section id="content-section-8" >
 	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  
 	id="limoking-parallax-wrapper-3" data-bgspeed="0" 
-	style="background-image: url('{{asset ('uploads/Sliders/TESLA - Slider.jpg')}}'); padding-top: 95px; padding-bottom: 50px; " >
+	style="background-image: url('{{asset ('Sliders-1600-600/Sliders - (1600x600) 8.jpg')}}'); padding-top: 95px; padding-bottom: 50px; " >
 		<div class="container">
 			<div class="six columns" >
 				<div class="limoking-item limoking-about-us-item limoking-with-divider" >
