@@ -23,6 +23,23 @@
          padding-top: 222px!important;
       }
 	}
+   @media (min-width:410px) and (max-width:712px) {
+		.banner-image-padding-top {
+         background-position: center 1.7438px!important;
+      }
+	}
+   @media (max-width:409px) {
+		.banner-image-padding-top {
+         padding-top:192px!important;
+         background-position: center -29.7438px!important;
+      }
+	}
+   @media (min-width:713px) {
+		.banner-image-padding-top {
+         padding-top:246px!important;
+         background-position: center -29.7438px!important;
+      }
+	}
 </style>
 <section id="content-section-1" >
    <div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin banner-image-padding-top"  id="limoking-parallax-wrapper-1" data-bgspeed="0" 
