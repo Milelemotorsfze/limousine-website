@@ -80,7 +80,7 @@
 	</div>
 	<div class="copyright-wrapper">
 		<div class="copyright-container container">
-			<div class="copyright-left">
+			<div class="copyright-left" style="color: #c69955;">
 				Copyright 2023 Milele Limousine
 			</div>
 			<div class="copyright-right">
