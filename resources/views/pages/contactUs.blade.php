@@ -74,7 +74,7 @@
                                                                     aria-required="true" aria-invalid="false" placeholder="Name *">
                                                         </span>
                                                         @error('name')
-                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        <div class="alert ">{{ $message }}</div>
                                                         @enderror
                                                     </div>
                                                     <div class="quform-element">
@@ -84,7 +84,7 @@
                                                                    aria-required="true" aria-invalid="false" placeholder="Email *">
                                                         </span>
                                                         @error('email')
-                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        <div class="alert ">{{ $message }}</div>
                                                         @enderror
                                                     </div>
                                                     <div class="quform-element">
@@ -94,7 +94,7 @@
                                                                          aria-invalid="false" style=" background-color: #FFFFFF !important;border: solid 1px #dee2e6 !important;" placeholder="Message*"></textarea>
                                                         </span>
                                                         @error('message')
-                                                        <div class="alert alert-danger">{{ $message }}</div>
+                                                        <div class="alert ">{{ $message }}</div>
                                                         @enderror
                                                     </div>
                                                     <!-- Begin Submit button -->
@@ -152,12 +152,12 @@
 				<a href="https://twitter.com/Milelelimousine">
                     <img src="{{asset('social-icons/icons8-twitter-48.png')}}">
                 </a>
-				
+
 				<a href="https://pin.it/5JYiZkt">
                     <img src="{{asset('social-icons/icons8-pinterest-48.png')}}">
                 </a>
-				
-				
+
+
                 <a href="https://www.linkedin.com/company/milelelimousine/">
                     <img src="{{asset('social-icons/icons8-linked-in-48.png')}}">
                 </a>
@@ -227,7 +227,7 @@
         });
 
     </script>
-   
+
 @endsection
 
 

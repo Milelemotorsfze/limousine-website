@@ -51,19 +51,19 @@ class BeOurRSLDriverOrInvestorController extends Controller
         {
             $file = $request->file('driver_license');
             $extension = $file->getClientOriginalExtension();
-            $fileName = time().'.'.$extension;
+            $fileName1 = 'Licence'.time().'.'.$extension;
             $destinationPath = 'Be-Our-RSL-Driver/driving-licence';
-            $file->move($destinationPath, $fileName);
-            $data->driver_license = $fileName;
+            $file->move($destinationPath, $fileName1);
+            $data->driver_license = $fileName1;
         }
         if ($request->has('passport_or_visa_copy'))
         {
             $file = $request->file('passport_or_visa_copy');
             $extension = $file->getClientOriginalExtension();
-            $fileName = time().'.'.$extension;
+            $fileName2 = 'passport'.time().'.'.$extension;
             $destinationPath = 'Be-Our-RSL-Driver/passport-or-visa';
-            $file->move($destinationPath, $fileName);
-            $data->passport_or_visa_copy = $fileName;
+            $file->move($destinationPath, $fileName2);
+            $data->passport_or_visa_copy = $fileName2;
         }
         $data->save();
 
