@@ -52,7 +52,7 @@
                                                 </a>
                                             </td>
                                             <td>
-                                                <a href="{{ asset('/Be-Our-RSL-Driver/passport-or-visa/'. $data->passport_or_visa_copy) }}" target="_blank"
+                                                <a href="{{ asset('/Be-Our-RSL-Driver/driving-licence/'. $data->driver_license) }}" target="_blank"
                                                    title="Click Here to View">
                                                     {{ $data->driver_license }}
                                                 </a>
