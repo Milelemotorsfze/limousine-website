@@ -128,24 +128,40 @@
                                 <div class="clear"></div>
                                 <div class="textwidget">
                                     <p> Ras Al Khor, Al Aweer, Auto market showroom No.93-Dubai</p>
-                                    <p><i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> +971 502015770</p>
-                                    <p><i class="limoking-icon fa fa-envelope" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> info@milelelimousine.com</p>
-                                    <p><i class="limoking-icon fa fa-clock-o" style="vertical-align: middle; color: #444444; font-size: 16px; "></i> Monday to Saturday, 9am – 10pm</p>
+                                    <p><img src="{{asset('social-icons/icons8-phone-30.png')}}"> +971 502015770</p>
+                                    <p><img src="{{asset('social-icons/icons8-email-30.png')}}"> info@milelelimousine.com</p>
+                                    <p><img src="{{asset('social-icons/icons8-time-30.png')}}"> Monday to Saturday, 9am – 10pm</p>
                                 </div>
                             </div>
                             <div id="text-8" class="widget widget_text limoking-item limoking-widget">
                                 <h3 class="limoking-widget-title">Social Media</h3>
                                 <div class="clear"></div>
-                                <div class="textwidget"><a href="https://www.facebook.com/profile.php?id=61551254275210">
-                                    <i class="limoking-icon fa fa-facebook" style="vertical-align: middle; color: #444444; font-size: 28px; " >
-                            </i></a>
-                             <a href="https://twitter.com/Milelelimousine"><i class="limoking-icon fa fa-twitter" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                             <a href="https://www.tiktok.com/@milelelimousine?lang=en"><i class="limoking-icon fa fa-tiktok" style="vertical-align: middle;margin-right: 0px; color: #444444; font-size: 28px; " ></i></a>
-                              <a href="https://pin.it/5JYiZkt"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href="https://www.youtube.com/@MileleLimousine"><i class="limoking-icon fa fa-youtube" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href="https://www.instagram.com/milelelimousine/"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a>
-                              <a href="https://www.linkedin.com/company/milelelimousine/"><i class="limoking-icon fa fa-linkedin" style="vertical-align: middle; color: #444444; font-size: 28px; " ></i></a></div>
-                                </div>
+                                <div class="textwidget">
+                                    <a href="https://www.facebook.com/profile.php?id=61551254275210">
+                    <img src="{{asset('social-icons/icons8-facebook-48.png')}}">
+                </a>
+                <a href="https://www.youtube.com/@MileleLimousine">
+                    <img src="{{asset('social-icons/icons8-youtube-48.png')}}">
+                </a>
+                <a href="https://www.tiktok.com/@milelelimousine?lang=en">
+                    <img src="{{asset('social-icons/icons8-tik-tok-48.png')}}">
+                </a>
+                <a href="https://www.instagram.com/milelelimousine/">
+                    <img src="{{asset('social-icons/icons8-instagram-48.png')}}">
+                </a>
+				<a href="https://twitter.com/Milelelimousine">
+                    <img src="{{asset('social-icons/icons8-twitter-48.png')}}">
+                </a>
+				
+				<a href="https://pin.it/5JYiZkt">
+                    <img src="{{asset('social-icons/icons8-pinterest-48.png')}}">
+                </a>
+				
+				
+                <a href="https://www.linkedin.com/company/milelelimousine/">
+                    <img src="{{asset('social-icons/icons8-linked-in-48.png')}}">
+                </a>
+                            </div>
                             </div>
                         </div>
                     </div>

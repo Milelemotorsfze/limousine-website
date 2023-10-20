@@ -67,11 +67,11 @@
 				<div class="clear"></div>
 				<div class="textwidget">
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-phone" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> +971 502015770
+					<img src="{{asset('social-icons/icons8-phone-30.png')}}" style="vertical-align: middle; color: #fff; font-size: 20px; " > +971 502015770
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-mobile" style="vertical-align: middle; color: #fff; font-size: 20px; " ></i> Monday to Saturday, 9am – 10pm
+					<img src="{{asset('social-icons/icons8-time-30.png')}}" style="vertical-align: middle; color: #fff; font-size: 20px; " > Monday to Saturday, 9am – 10pm
 					<span class="clear"></span><span class="limoking-space" style="margin-top: 10px; display: block;"></span>
-					<i class="limoking-icon fa fa-envelope-o" style="vertical-align: middle; color: #fff; font-size: 16px; " ></i> info@milelelimousine.com
+					<img src="{{asset('social-icons/icons8-email-30.png')}}" style="vertical-align: middle; color: #fff; font-size: 20px; " > info@milelelimousine.com
 				</div>
 			</div>
 		</div>
@@ -84,13 +84,37 @@
 				Copyright 2023 Milele Limousine
 			</div>
 			<div class="copyright-right">
-				<a href="https://www.facebook.com/profile.php?id=61551254275210"><i class="limoking-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+				<!-- <a href="https://www.facebook.com/profile.php?id=61551254275210"><i class="limoking-icon fa fa-facebook" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
 				<a href="https://twitter.com/Milelelimousine"><i class="limoking-icon fa fa-twitter" style="vertical-align: middle;margin-right:0px;color: #bbbbbb;font-size: 20px"></i></a>
 				<a href="https://www.tiktok.com/@milelelimousine?lang=en"><i class="limoking-icon fa fa-tiktok" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
 				<a href="https://pin.it/5JYiZkt"><i class="limoking-icon fa fa-pinterest" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
 				<a href="https://www.youtube.com/@MileleLimousine"><i class="limoking-icon fa fa-youtube" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
 				<a href="https://www.instagram.com/milelelimousine/"><i class="limoking-icon fa fa-instagram" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
-                <a href="https://www.linkedin.com/company/milelelimousine/"><i class="limoking-icon fa fa-linkedin" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a>
+                <a href="https://www.linkedin.com/company/milelelimousine/"><i class="limoking-icon fa fa-linkedin" style="vertical-align: middle;color: #bbbbbb;font-size: 20px"></i></a> -->
+                <a href="https://www.facebook.com/profile.php?id=61551254275210">
+                    <img src="{{asset('social-icons/icons8-facebook-48.png')}}">
+                </a>
+                <a href="https://www.youtube.com/@MileleLimousine">
+                    <img src="{{asset('social-icons/icons8-youtube-48.png')}}">
+                </a>
+                <a href="https://www.tiktok.com/@milelelimousine?lang=en">
+                    <img src="{{asset('social-icons/icons8-tik-tok-48.png')}}">
+                </a>
+                <a href="https://www.instagram.com/milelelimousine/">
+                    <img src="{{asset('social-icons/icons8-instagram-48.png')}}">
+                </a>
+				<a href="https://twitter.com/Milelelimousine">
+                    <img src="{{asset('social-icons/icons8-twitter-48.png')}}">
+                </a>
+				
+				<a href="https://pin.it/5JYiZkt">
+                    <img src="{{asset('social-icons/icons8-pinterest-48.png')}}">
+                </a>
+				
+				
+                <a href="https://www.linkedin.com/company/milelelimousine/">
+                    <img src="{{asset('social-icons/icons8-linked-in-48.png')}}">
+                </a>
 
 			</div>
 

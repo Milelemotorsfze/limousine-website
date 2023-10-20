@@ -11,7 +11,7 @@
 </style>
 <section id="content-section-1"  >
 	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-dark-skin"  id="limoking-parallax-wrapper-1" data-bgspeed="0"
-		style="background-image: url('../wp-content/uploads/2015/11/title-big-bg-yellow.jpg'); padding-top: 230px; padding-bottom: 90px; " >
+		style="background-image: url('{{asset('Sliders-1600-600/Sliders - (1600x600) 3.jpg')}}'); padding-top: 230px; padding-bottom: 90px; " >
 		<div class="container">
 			<div class="limoking-title-item"  >
 				<div class="limoking-item-title-wrapper limoking-item  limoking-center-icon-divider limoking-large ">
@@ -76,7 +76,7 @@
 							<div class="single-features-box">
 								<center>
 									<div class="icon"><img src="{{asset ('service/clock.png')}}"></div>
-									<h3>Hourly Hire</h3>
+									<h3>Weddings</h3>
 								</center>
 							</div>
 						</div>

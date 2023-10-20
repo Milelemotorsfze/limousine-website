@@ -666,13 +666,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -696,13 +696,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">6+1</h5>
+													<h5 class="card-pb">6</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -726,13 +726,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -756,13 +756,13 @@ p.service_text{
 												<div class="left-info">
 													<img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon">
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon">
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -787,13 +787,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">6+1</h5>
+													<h5 class="card-pb">6</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -817,13 +817,13 @@ p.service_text{
 												<div class="left-info">
 													<center><img src="{{asset ('fleet/seat.png')}}" alt="Passenger Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Passengers</h6>
-													<h5 class="card-pb">4+1</h5>
+													<h5 class="card-pb">4</h5>
 												</div>
 												<div class="vertical-line"></div>
 												<div class="right-info">
 													<center><img src="{{asset ('fleet/baggage.png')}}" alt="Baggage Icon" class="fleet-icon"></center>
 													<h6 class="card-pb">Baggage</h6>
-													<h5 class="card-pb">3</h5>
+													<h5 class="card-pb">2</h5>
 												</div>
 											</div>
 											<div class="buttons">
@@ -845,19 +845,17 @@ p.service_text{
 	<div class="clear"></div>
 </section>
 <section id="content-section-5" >
-                                    <div class="limoking-color-wrapper  gdlr-show-all limoking-skin-dark-skin" style="background-color: #c69955; padding-top: 0px; padding-bottom: 0px; " >
-                                        <div class="container">
-                                            <div class="limoking-stunning-item-ux limoking-ux">
-                                                <div class="limoking-item limoking-stunning-item" >
-												<h2 class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >What about pricing?</h2>
-
-                                                    <div class="stunning-item-content"  style="padding-left:50px;">
-                                                        <!-- <h2 class="stunning-item-title">What about pricing?</h2> -->
-                                                        <div class="stunning-item-caption limoking-skin-content" style="font-size:15px;">Our charges are highly competitive aligning with market standards. We offer a variety of convenient payment options, including cash, credit cards, and online payments, to ensure a hassle-free payment experience for our valued customers.</div>
-                                                    </div>
-                                                    <!-- <a class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >Check Rates</a> -->
-                                                </div>
-                                            </div>
+    <div class="limoking-color-wrapper  gdlr-show-all limoking-skin-dark-skin"
+	style="background-image: url('{{asset('Sliders-1600-200/Sliders - (1600x200) 2.jpg')}}'); padding-top: 0px; padding-bottom: 0px; " >
+        <div class="container">
+            <div class="limoking-stunning-item-ux limoking-ux">
+                <div class="limoking-item limoking-stunning-item" >
+					<h2 class="stunning-item-button limoking-info-font" href="http://demo.goodlayers.com/limoking/service-rates/" style="color: #fff;background: #d6a54c;" >What about pricing?</h2>
+					<div class="stunning-item-content"  style="padding-left:50px;">
+                        <div class="stunning-item-caption limoking-skin-content" style="font-size:15px;">Our charges are highly competitive aligning with market standards. We offer a variety of convenient payment options, including cash, credit cards, and online payments, to ensure a hassle-free payment experience for our valued customers.</div>
+                        </div>
+                    </div>
+                </div>
                                             <div class="clear"></div>
                                             <div class="clear"></div>
                                         </div>
@@ -928,7 +926,9 @@ p.service_text{
 </section> -->
 
 <section id="content-section-8" >
-	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  id="limoking-parallax-wrapper-3" data-bgspeed="0" style="background-image: url('{{asset ('')}}wp-content/uploads/2015/11/about-us-bg.jpg'); padding-top: 95px; padding-bottom: 50px; " >
+	<div class="limoking-parallax-wrapper limoking-background-image gdlr-show-all limoking-skin-darkblue"  
+	id="limoking-parallax-wrapper-3" data-bgspeed="0" 
+	style="background-image: url('{{asset ('Sliders-1600-600/Sliders - (1600x600) 8.jpg')}}'); padding-top: 95px; padding-bottom: 50px; " >
 		<div class="container">
 			<div class="six columns" >
 				<div class="limoking-item limoking-about-us-item limoking-with-divider" >
@@ -960,7 +960,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title ">Airport Transport</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -973,7 +973,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">City Tour</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -984,9 +984,9 @@ p.service_text{
 					<div class="limoking-item limoking-column-service-item limoking-medium service-margin zoom" >
 						<div class="column-service-image " ><img src="{{asset ('service/clock.png')}}" alt="" width="41" height="46" /></div>
 						<div class="column-service-content-wrapper">
-							<h3 class="column-service-title">Hourly Hire</h3>
+							<h3 class="column-service-title">Weddings</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan. We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan. We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1000,7 +1000,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Corporates</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1013,7 +1013,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Events</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
@@ -1026,7 +1026,7 @@ p.service_text{
 						<div class="column-service-content-wrapper">
 							<h3 class="column-service-title">Enterprise</h3>
 							<div class="column-service-content limoking-skin-content">
-								<p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p>
+								<!-- <p class="p-margin-bottom">Limos King offers superb lim service in New York and Manhatatan.  We are the </p> -->
 							</div>
 						</div>
 					</div>
