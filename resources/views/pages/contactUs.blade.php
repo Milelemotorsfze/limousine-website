@@ -172,6 +172,14 @@
         </div>
         <div class="clear"></div>
     </div>
+    <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
+<script type="text/javascript">
+         $(document).ready( function()
+         {
+            var element = document.getElementById("contact-us");
+            element.classList.add("active-menu-color");
+         });
+      </script>
     <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script type="text/javascript">
         jQuery.validator.setDefaults({
@@ -219,14 +227,7 @@
         });
 
     </script>
-     <script src="{{ asset('/admin/plugins/jquery/jquery.min.js') }}"></script>
-<script type="text/javascript">
-         $(document).ready( function()
-         {
-            var element = document.getElementById("contact-us");
-            element.classList.add("active-menu-color");
-         });
-      </script>
+   
 @endsection
 
 
